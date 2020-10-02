@@ -9,15 +9,16 @@ Extraccion de datos de la pagina siguiente: https://www.bdfutbol.com/es/t/t.html
 - python 3.8.5
 - ide pycharm
 
-## INSERTAR ALERTA
+# Datos
 
+## Insertar alerta
 - a = año de inicio
 - b = año de finalizacion
 - c = comentario de la temporada
 
 **INSERT_ALERTA(a, b, c)**
 
-## INSERTAR JORNADA
+## Insertar jornada
 
 - a = nombre jornada
 - b = numero jornada
@@ -28,7 +29,7 @@ Extraccion de datos de la pagina siguiente: https://www.bdfutbol.com/es/t/t.html
 
 **INSERT_JORNADA(a, b, c, d, e, f)**
 
-## INSERTAR PARTIDO
+## Insertar partido
 
 - a = fecha
 - b = tarjetas amarillas de equipo local
@@ -42,7 +43,7 @@ Extraccion de datos de la pagina siguiente: https://www.bdfutbol.com/es/t/t.html
 
 **INSERT_PARTIDO(a, b, c, d, e, f, g, h, i)**
 
-## INSERTAR TEMPORADA
+## Insertar temporada
 
 - a = año de inicio
 - b = año de fin

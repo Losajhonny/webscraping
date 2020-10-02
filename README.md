@@ -5,20 +5,20 @@ Extraccion de datos de la pagina siguiente: https://www.bdfutbol.com/es/t/t.html
 - Extraccion de jornadas por temporada
 - Extraccion de 40 temporadas
 
-## Lenguaje y herramientas
+### Lenguaje y herramientas
 - python 3.8.5
 - ide pycharm
 
 # Datos
 
-## Insertar alerta
+### Insertar alerta
 - a = año de inicio
 - b = año de finalizacion
 - c = comentario de la temporada
 
 **INSERT_ALERTA(a, b, c)**
 
-## Insertar jornada
+### Insertar jornada
 
 - a = nombre jornada
 - b = numero jornada
@@ -29,7 +29,7 @@ Extraccion de datos de la pagina siguiente: https://www.bdfutbol.com/es/t/t.html
 
 **INSERT_JORNADA(a, b, c, d, e, f)**
 
-## Insertar partido
+### Insertar partido
 
 - a = fecha
 - b = tarjetas amarillas de equipo local
@@ -43,7 +43,7 @@ Extraccion de datos de la pagina siguiente: https://www.bdfutbol.com/es/t/t.html
 
 **INSERT_PARTIDO(a, b, c, d, e, f, g, h, i)**
 
-## Insertar temporada
+### Insertar temporada
 
 - a = año de inicio
 - b = año de fin

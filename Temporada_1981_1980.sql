@@ -1,0 +1,412 @@
+-- Temporada 1981-1980
+
+
+EXEC INSERT_JORNADA ('Jornada 1', 1, '06/09/1980', '07/09/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 2', 2, '13/09/1980', '14/09/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 3', 3, '20/09/1980', '21/09/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 4', 4, '27/09/1980', '28/09/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 5', 5, '04/10/1980', '05/10/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 6', 6, '11/10/1980', '12/10/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 7', 7, '18/10/1980', '19/10/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 8', 8, '26/10/1980', '26/10/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 9', 9, '01/11/1980', '02/11/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 10', 10, '09/11/1980', '09/11/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 11', 11, '15/11/1980', '16/11/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 12', 12, '23/11/1980', '23/11/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 13', 13, '29/11/1980', '17/12/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 14', 14, '07/12/1980', '07/12/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 15', 15, '13/12/1980', '14/12/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 16', 16, '21/12/1980', '21/12/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 17', 17, '27/12/1980', '28/12/1980', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 18', 18, '03/01/1981', '04/01/1981', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 19', 19, '11/01/1981', '11/01/1981', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 20', 20, '17/01/1981', '18/01/1981', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 21', 21, '24/01/1981', '25/01/1981', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 22', 22, '01/02/1981', '01/02/1981', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 23', 23, '07/02/1981', '08/02/1981', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 24', 24, '15/02/1981', '15/02/1981', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 25', 25, '21/02/1981', '22/02/1981', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 26', 26, '28/02/1981', '01/03/1981', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 27', 27, '08/03/1981', '08/03/1981', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 28', 28, '15/03/1981', '15/03/1981', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 29', 29, '21/03/1981', '22/03/1981', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 30', 30, '29/03/1981', '29/03/1981', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 31', 31, '04/04/1981', '05/04/1981', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 32', 32, '12/04/1981', '12/04/1981', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 33', 33, '19/04/1981', '19/04/1981', 1980, 1981);
+EXEC INSERT_JORNADA ('Jornada 34', 34, '25/04/1981', '26/04/1981', 1980, 1981);
+
+-- Jornada 1
+EXEC INSERT_PARTIDO ('06/09/1980', 0, 0, 'Español', 2, 1, 'Hércules', 0, 0);
+EXEC INSERT_PARTIDO ('06/09/1980', 0, 0, 'Sporting de Gijón', 2, 0, 'Betis', 0, 0);
+EXEC INSERT_PARTIDO ('06/09/1980', 1, 0, 'Sevilla', 1, 0, 'Salamanca', 1, 0);
+EXEC INSERT_PARTIDO ('06/09/1980', 1, 0, 'Valencia', 3, 2, 'Real Sociedad', 2, 0);
+EXEC INSERT_PARTIDO ('07/09/1980', 0, 0, 'AD Almería', 1, 2, 'Real Madrid', 2, 0);
+EXEC INSERT_PARTIDO ('07/09/1980', 0, 0, 'Athletic Club', 0, 1, 'Zaragoza', 1, 0);
+EXEC INSERT_PARTIDO ('07/09/1980', 0, 0, 'Atlético de Madrid', 5, 2, 'Valladolid', 1, 0);
+EXEC INSERT_PARTIDO ('07/09/1980', 2, 0, 'Murcia', 1, 2, 'Barcelona', 0, 0);
+EXEC INSERT_PARTIDO ('07/09/1980', 0, 0, 'Osasuna', 1, 0, 'Las Palmas', 2, 1);
+
+-- Jornada 2
+EXEC INSERT_PARTIDO ('13/09/1980', 0, 0, 'Barcelona', 3, 1, 'Español', 1, 0);
+EXEC INSERT_PARTIDO ('13/09/1980', 3, 0, 'Las Palmas', 1, 1, 'Atlético de Madrid', 2, 0);
+EXEC INSERT_PARTIDO ('13/09/1980', 0, 0, 'Real Sociedad', 2, 1, 'Osasuna', 1, 0);
+EXEC INSERT_PARTIDO ('13/09/1980', 1, 0, 'Salamanca', 0, 3, 'Murcia', 0, 0);
+EXEC INSERT_PARTIDO ('13/09/1980', 0, 0, 'Valencia', 3, 1, 'Betis', 0, 0);
+EXEC INSERT_PARTIDO ('14/09/1980', 0, 0, 'Hércules', 1, 1, 'Sporting de Gijón', 0, 0);
+EXEC INSERT_PARTIDO ('14/09/1980', 0, 0, 'Real Madrid', 7, 1, 'Athletic Club', 0, 0);
+EXEC INSERT_PARTIDO ('14/09/1980', 0, 0, 'Valladolid', 0, 0, 'AD Almería', 2, 0);
+EXEC INSERT_PARTIDO ('14/09/1980', 0, 0, 'Zaragoza', 2, 0, 'Sevilla', 2, 0);
+
+-- Jornada 3
+EXEC INSERT_PARTIDO ('20/09/1980', 0, 0, 'Español', 2, 1, 'Salamanca', 4, 0);
+EXEC INSERT_PARTIDO ('21/09/1980', 2, 0, 'Athletic Club', 4, 1, 'Valladolid', 1, 0);
+EXEC INSERT_PARTIDO ('21/09/1980', 1, 0, 'Atlético de Madrid', 2, 1, 'AD Almería', 2, 0);
+EXEC INSERT_PARTIDO ('21/09/1980', 1, 0, 'Sporting de Gijón', 2, 1, 'Barcelona', 3, 0);
+EXEC INSERT_PARTIDO ('21/09/1980', 0, 0, 'Las Palmas', 0, 3, 'Real Sociedad', 0, 0);
+EXEC INSERT_PARTIDO ('21/09/1980', 1, 0, 'Murcia', 0, 1, 'Zaragoza', 3, 0);
+EXEC INSERT_PARTIDO ('21/09/1980', 0, 0, 'Osasuna', 1, 2, 'Betis', 0, 0);
+EXEC INSERT_PARTIDO ('21/09/1980', 2, 0, 'Sevilla', 2, 0, 'Real Madrid', 3, 0);
+EXEC INSERT_PARTIDO ('21/09/1980', 1, 0, 'Valencia', 0, 2, 'Hércules', 2, 0);
+
+-- Jornada 4
+EXEC INSERT_PARTIDO ('27/09/1980', 2, 0, 'Barcelona', 0, 3, 'Valencia', 2, 0);
+EXEC INSERT_PARTIDO ('27/09/1980', 2, 0, 'Real Sociedad', 2, 2, 'Atlético de Madrid', 0, 0);
+EXEC INSERT_PARTIDO ('28/09/1980', 0, 0, 'AD Almería', 1, 1, 'Athletic Club', 0, 0);
+EXEC INSERT_PARTIDO ('28/09/1980', 1, 1, 'Betis', 4, 1, 'Las Palmas', 2, 2);
+EXEC INSERT_PARTIDO ('28/09/1980', 3, 0, 'Hércules', 0, 0, 'Osasuna', 1, 0);
+EXEC INSERT_PARTIDO ('28/09/1980', 2, 0, 'Real Madrid', 4, 0, 'Murcia', 2, 0);
+EXEC INSERT_PARTIDO ('28/09/1980', 2, 0, 'Salamanca', 2, 2, 'Sporting de Gijón', 0, 0);
+EXEC INSERT_PARTIDO ('28/09/1980', 2, 0, 'Valladolid', 2, 3, 'Sevilla', 1, 0);
+EXEC INSERT_PARTIDO ('28/09/1980', 0, 0, 'Zaragoza', 2, 1, 'Español', 2, 0);
+
+-- Jornada 5
+EXEC INSERT_PARTIDO ('04/10/1980', 2, 0, 'Las Palmas', 1, 1, 'Hércules', 2, 0);
+EXEC INSERT_PARTIDO ('05/10/1980', 3, 0, 'Atlético de Madrid', 2, 1, 'Athletic Club', 4, 0);
+EXEC INSERT_PARTIDO ('05/10/1980', 2, 0, 'Español', 2, 1, 'Real Madrid', 2, 1);
+EXEC INSERT_PARTIDO ('05/10/1980', 0, 0, 'Sporting de Gijón', 1, 1, 'Zaragoza', 0, 0);
+EXEC INSERT_PARTIDO ('05/10/1980', 2, 0, 'Murcia', 0, 0, 'Valladolid', 1, 0);
+EXEC INSERT_PARTIDO ('05/10/1980', 2, 0, 'Osasuna', 1, 0, 'Barcelona', 1, 0);
+EXEC INSERT_PARTIDO ('05/10/1980', 0, 0, 'Real Sociedad', 2, 2, 'Betis', 0, 0);
+EXEC INSERT_PARTIDO ('05/10/1980', 1, 0, 'Sevilla', 1, 0, 'AD Almería', 1, 0);
+EXEC INSERT_PARTIDO ('05/10/1980', 2, 0, 'Valencia', 3, 0, 'Salamanca', 1, 0);
+
+-- Jornada 6
+EXEC INSERT_PARTIDO ('11/10/1980', 2, 0, 'Athletic Club', 3, 0, 'Sevilla', 2, 0);
+EXEC INSERT_PARTIDO ('12/10/1980', 1, 0, 'AD Almería', 0, 0, 'Murcia', 1, 0);
+EXEC INSERT_PARTIDO ('12/10/1980', 0, 0, 'Barcelona', 1, 0, 'Las Palmas', 1, 0);
+EXEC INSERT_PARTIDO ('12/10/1980', 1, 0, 'Betis', 0, 1, 'Atlético de Madrid', 1, 0);
+EXEC INSERT_PARTIDO ('12/10/1980', 3, 1, 'Hércules', 2, 0, 'Real Sociedad', 4, 1);
+EXEC INSERT_PARTIDO ('12/10/1980', 0, 0, 'Real Madrid', 1, 0, 'Sporting de Gijón', 0, 0);
+EXEC INSERT_PARTIDO ('12/10/1980', 0, 0, 'Salamanca', 1, 2, 'Osasuna', 0, 0);
+EXEC INSERT_PARTIDO ('12/10/1980', 2, 1, 'Valladolid', 3, 1, 'Español', 2, 0);
+EXEC INSERT_PARTIDO ('12/10/1980', 1, 1, 'Zaragoza', 1, 1, 'Valencia', 5, 0);
+
+-- Jornada 7
+EXEC INSERT_PARTIDO ('18/10/1980', 0, 0, 'Las Palmas', 1, 1, 'Salamanca', 1, 0);
+EXEC INSERT_PARTIDO ('18/10/1980', 0, 1, 'Valencia', 2, 1, 'Real Madrid', 0, 1);
+EXEC INSERT_PARTIDO ('19/10/1980', 1, 0, 'Atlético de Madrid', 2, 0, 'Sevilla', 2, 0);
+EXEC INSERT_PARTIDO ('19/10/1980', 3, 0, 'Betis', 2, 0, 'Hércules', 0, 0);
+EXEC INSERT_PARTIDO ('19/10/1980', 0, 0, 'Español', 1, 0, 'AD Almería', 2, 0);
+EXEC INSERT_PARTIDO ('19/10/1980', 0, 0, 'Sporting de Gijón', 4, 1, 'Valladolid', 0, 0);
+EXEC INSERT_PARTIDO ('19/10/1980', 2, 0, 'Murcia', 5, 4, 'Athletic Club', 1, 0);
+EXEC INSERT_PARTIDO ('19/10/1980', 0, 0, 'Osasuna', 1, 0, 'Zaragoza', 0, 0);
+EXEC INSERT_PARTIDO ('19/10/1980', 0, 0, 'Real Sociedad', 2, 0, 'Barcelona', 1, 0);
+
+-- Jornada 8
+EXEC INSERT_PARTIDO ('26/10/1980', 3, 0, 'AD Almería', 1, 1, 'Sporting de Gijón', 0, 0);
+EXEC INSERT_PARTIDO ('26/10/1980', 1, 0, 'Athletic Club', 1, 2, 'Español', 1, 0);
+EXEC INSERT_PARTIDO ('26/10/1980', 1, 0, 'Barcelona', 1, 3, 'Betis', 2, 0);
+EXEC INSERT_PARTIDO ('26/10/1980', 0, 0, 'Hércules', 1, 2, 'Atlético de Madrid', 1, 0);
+EXEC INSERT_PARTIDO ('26/10/1980', 1, 0, 'Real Madrid', 3, 1, 'Osasuna', 1, 0);
+EXEC INSERT_PARTIDO ('26/10/1980', 1, 0, 'Salamanca', 0, 2, 'Real Sociedad', 0, 0);
+EXEC INSERT_PARTIDO ('26/10/1980', 0, 0, 'Sevilla', 1, 0, 'Murcia', 0, 0);
+EXEC INSERT_PARTIDO ('26/10/1980', 3, 0, 'Valladolid', 2, 0, 'Valencia', 2, 1);
+EXEC INSERT_PARTIDO ('26/10/1980', 2, 0, 'Zaragoza', 2, 3, 'Las Palmas', 1, 0);
+
+-- Jornada 9
+EXEC INSERT_PARTIDO ('01/11/1980', 2, 0, 'Las Palmas', 1, 0, 'Real Madrid', 1, 0);
+EXEC INSERT_PARTIDO ('01/11/1980', 2, 0, 'Real Sociedad', 1, 0, 'Zaragoza', 1, 1);
+EXEC INSERT_PARTIDO ('01/11/1980', 0, 0, 'Valencia', 3, 1, 'AD Almería', 1, 0);
+EXEC INSERT_PARTIDO ('02/11/1980', 2, 0, 'Atlético de Madrid', 2, 1, 'Murcia', 5, 0);
+EXEC INSERT_PARTIDO ('02/11/1980', 0, 0, 'Betis', 5, 0, 'Salamanca', 0, 0);
+EXEC INSERT_PARTIDO ('02/11/1980', 1, 0, 'Español', 2, 2, 'Sevilla', 4, 1);
+EXEC INSERT_PARTIDO ('02/11/1980', 0, 0, 'Sporting de Gijón', 1, 1, 'Athletic Club', 2, 0);
+EXEC INSERT_PARTIDO ('02/11/1980', 2, 0, 'Hércules', 0, 1, 'Barcelona', 0, 0);
+EXEC INSERT_PARTIDO ('02/11/1980', 0, 0, 'Osasuna', 2, 0, 'Valladolid', 0, 0);
+
+-- Jornada 10
+EXEC INSERT_PARTIDO ('09/11/1980', 0, 0, 'AD Almería', 1, 1, 'Osasuna', 1, 0);
+EXEC INSERT_PARTIDO ('09/11/1980', 1, 0, 'Athletic Club', 4, 0, 'Valencia', 0, 0);
+EXEC INSERT_PARTIDO ('09/11/1980', 1, 0, 'Barcelona', 4, 2, 'Atlético de Madrid', 0, 0);
+EXEC INSERT_PARTIDO ('09/11/1980', 3, 0, 'Murcia', 1, 1, 'Español', 4, 0);
+EXEC INSERT_PARTIDO ('09/11/1980', 2, 1, 'Real Madrid', 1, 0, 'Real Sociedad', 1, 0);
+EXEC INSERT_PARTIDO ('09/11/1980', 3, 0, 'Salamanca', 0, 1, 'Hércules', 2, 1);
+EXEC INSERT_PARTIDO ('09/11/1980', 0, 0, 'Sevilla', 3, 2, 'Sporting de Gijón', 0, 0);
+EXEC INSERT_PARTIDO ('09/11/1980', 0, 0, 'Valladolid', 3, 1, 'Las Palmas', 1, 1);
+EXEC INSERT_PARTIDO ('09/11/1980', 2, 1, 'Zaragoza', 2, 0, 'Betis', 1, 1);
+
+-- Jornada 11
+EXEC INSERT_PARTIDO ('15/11/1980', 2, 0, 'Las Palmas', 3, 0, 'AD Almería', 2, 0);
+EXEC INSERT_PARTIDO ('16/11/1980', 0, 0, 'Atlético de Madrid', 1, 0, 'Español', 1, 0);
+EXEC INSERT_PARTIDO ('16/11/1980', 2, 1, 'Barcelona', 3, 0, 'Salamanca', 2, 0);
+EXEC INSERT_PARTIDO ('16/11/1980', 0, 0, 'Betis', 1, 1, 'Real Madrid', 3, 0);
+EXEC INSERT_PARTIDO ('16/11/1980', 1, 0, 'Sporting de Gijón', 2, 0, 'Murcia', 1, 0);
+EXEC INSERT_PARTIDO ('16/11/1980', 2, 1, 'Hércules', 1, 1, 'Zaragoza', 1, 0);
+EXEC INSERT_PARTIDO ('16/11/1980', 1, 0, 'Osasuna', 2, 0, 'Athletic Club', 0, 0);
+EXEC INSERT_PARTIDO ('16/11/1980', 0, 0, 'Real Sociedad', 1, 0, 'Valladolid', 0, 0);
+EXEC INSERT_PARTIDO ('16/11/1980', 0, 0, 'Valencia', 2, 0, 'Sevilla', 2, 0);
+
+-- Jornada 12
+EXEC INSERT_PARTIDO ('23/11/1980', 2, 0, 'AD Almería', 3, 2, 'Real Sociedad', 0, 0);
+EXEC INSERT_PARTIDO ('23/11/1980', 0, 0, 'Athletic Club', 1, 3, 'Las Palmas', 1, 0);
+EXEC INSERT_PARTIDO ('23/11/1980', 0, 0, 'Español', 1, 0, 'Sporting de Gijón', 1, 0);
+EXEC INSERT_PARTIDO ('23/11/1980', 1, 0, 'Murcia', 0, 2, 'Valencia', 1, 0);
+EXEC INSERT_PARTIDO ('23/11/1980', 1, 0, 'Real Madrid', 3, 0, 'Hércules', 2, 0);
+EXEC INSERT_PARTIDO ('23/11/1980', 2, 0, 'Salamanca', 1, 1, 'Atlético de Madrid', 2, 0);
+EXEC INSERT_PARTIDO ('23/11/1980', 1, 0, 'Sevilla', 1, 0, 'Osasuna', 0, 0);
+EXEC INSERT_PARTIDO ('23/11/1980', 0, 0, 'Valladolid', 2, 1, 'Betis', 0, 0);
+EXEC INSERT_PARTIDO ('23/11/1980', 3, 0, 'Zaragoza', 1, 2, 'Barcelona', 3, 0);
+
+-- Jornada 13
+EXEC INSERT_PARTIDO ('29/11/1980', 0, 0, 'Las Palmas', 1, 2, 'Sevilla', 1, 0);
+EXEC INSERT_PARTIDO ('30/11/1980', 1, 0, 'Atlético de Madrid', 0, 0, 'Sporting de Gijón', 1, 0);
+EXEC INSERT_PARTIDO ('30/11/1980', 1, 0, 'Barcelona', 2, 1, 'Real Madrid', 1, 0);
+EXEC INSERT_PARTIDO ('30/11/1980', 3, 0, 'Betis', 2, 0, 'AD Almería', 3, 0);
+EXEC INSERT_PARTIDO ('30/11/1980', 0, 0, 'Hércules', 1, 1, 'Valladolid', 1, 0);
+EXEC INSERT_PARTIDO ('30/11/1980', 1, 0, 'Real Sociedad', 4, 1, 'Athletic Club', 2, 0);
+EXEC INSERT_PARTIDO ('30/11/1980', 0, 0, 'Salamanca', 3, 1, 'Zaragoza', 0, 0);
+EXEC INSERT_PARTIDO ('30/11/1980', 2, 0, 'Valencia', 3, 1, 'Español', 2, 0);
+EXEC INSERT_PARTIDO ('17/12/1980', 1, 0, 'Osasuna', 3, 1, 'Murcia', 2, 0);
+
+-- Jornada 14
+EXEC INSERT_PARTIDO ('07/12/1980', 1, 0, 'AD Almería', 0, 3, 'Hércules', 1, 0);
+EXEC INSERT_PARTIDO ('07/12/1980', 3, 0, 'Athletic Club', 2, 0, 'Betis', 2, 0);
+EXEC INSERT_PARTIDO ('07/12/1980', 1, 0, 'Español', 0, 0, 'Osasuna', 1, 0);
+EXEC INSERT_PARTIDO ('07/12/1980', 0, 0, 'Sporting de Gijón', 0, 0, 'Valencia', 0, 0);
+EXEC INSERT_PARTIDO ('07/12/1980', 2, 0, 'Murcia', 1, 2, 'Las Palmas', 2, 0);
+EXEC INSERT_PARTIDO ('07/12/1980', 0, 0, 'Real Madrid', 2, 0, 'Salamanca', 1, 0);
+EXEC INSERT_PARTIDO ('07/12/1980', 0, 0, 'Sevilla', 0, 0, 'Real Sociedad', 1, 0);
+EXEC INSERT_PARTIDO ('07/12/1980', 1, 0, 'Valladolid', 1, 1, 'Barcelona', 1, 0);
+EXEC INSERT_PARTIDO ('07/12/1980', 0, 0, 'Zaragoza', 0, 1, 'Atlético de Madrid', 0, 0);
+
+-- Jornada 15
+EXEC INSERT_PARTIDO ('13/12/1980', 0, 0, 'Barcelona', 6, 0, 'AD Almería', 1, 0);
+EXEC INSERT_PARTIDO ('13/12/1980', 1, 0, 'Las Palmas', 2, 0, 'Español', 3, 0);
+EXEC INSERT_PARTIDO ('14/12/1980', 0, 0, 'Atlético de Madrid', 3, 1, 'Valencia', 1, 0);
+EXEC INSERT_PARTIDO ('14/12/1980', 2, 0, 'Betis', 2, 0, 'Sevilla', 1, 1);
+EXEC INSERT_PARTIDO ('14/12/1980', 1, 0, 'Hércules', 1, 2, 'Athletic Club', 1, 0);
+EXEC INSERT_PARTIDO ('14/12/1980', 0, 0, 'Osasuna', 3, 0, 'Sporting de Gijón', 0, 0);
+EXEC INSERT_PARTIDO ('14/12/1980', 0, 0, 'Real Sociedad', 1, 0, 'Murcia', 0, 0);
+EXEC INSERT_PARTIDO ('14/12/1980', 1, 0, 'Salamanca', 2, 1, 'Valladolid', 3, 0);
+EXEC INSERT_PARTIDO ('14/12/1980', 0, 0, 'Zaragoza', 0, 0, 'Real Madrid', 1, 0);
+
+-- Jornada 16
+EXEC INSERT_PARTIDO ('21/12/1980', 2, 1, 'AD Almería', 3, 2, 'Salamanca', 0, 0);
+EXEC INSERT_PARTIDO ('21/12/1980', 1, 0, 'Athletic Club', 4, 1, 'Barcelona', 1, 0);
+EXEC INSERT_PARTIDO ('21/12/1980', 1, 0, 'Atlético de Madrid', 3, 1, 'Real Madrid', 2, 0);
+EXEC INSERT_PARTIDO ('21/12/1980', 5, 1, 'Español', 0, 0, 'Real Sociedad', 1, 0);
+EXEC INSERT_PARTIDO ('21/12/1980', 0, 0, 'Sporting de Gijón', 2, 1, 'Las Palmas', 1, 0);
+EXEC INSERT_PARTIDO ('21/12/1980', 1, 0, 'Murcia', 2, 0, 'Betis', 1, 0);
+EXEC INSERT_PARTIDO ('21/12/1980', 1, 0, 'Sevilla', 0, 0, 'Hércules', 1, 0);
+EXEC INSERT_PARTIDO ('21/12/1980', 0, 0, 'Valencia', 4, 1, 'Osasuna', 0, 0);
+EXEC INSERT_PARTIDO ('21/12/1980', 1, 0, 'Valladolid', 1, 1, 'Zaragoza', 1, 0);
+
+-- Jornada 17
+EXEC INSERT_PARTIDO ('27/12/1980', 3, 1, 'Las Palmas', 1, 4, 'Valencia', 0, 0);
+EXEC INSERT_PARTIDO ('28/12/1980', 1, 0, 'Barcelona', 3, 1, 'Sevilla', 1, 0);
+EXEC INSERT_PARTIDO ('28/12/1980', 2, 0, 'Betis', 1, 2, 'Español', 2, 1);
+EXEC INSERT_PARTIDO ('28/12/1980', 1, 0, 'Hércules', 1, 0, 'Murcia', 1, 0);
+EXEC INSERT_PARTIDO ('28/12/1980', 1, 0, 'Osasuna', 0, 0, 'Atlético de Madrid', 1, 0);
+EXEC INSERT_PARTIDO ('28/12/1980', 0, 0, 'Real Sociedad', 1, 2, 'Sporting de Gijón', 1, 0);
+EXEC INSERT_PARTIDO ('28/12/1980', 2, 0, 'Real Madrid', 1, 1, 'Valladolid', 1, 0);
+EXEC INSERT_PARTIDO ('28/12/1980', 1, 0, 'Salamanca', 3, 2, 'Athletic Club', 2, 0);
+EXEC INSERT_PARTIDO ('28/12/1980', 1, 0, 'Zaragoza', 1, 0, 'AD Almería', 2, 0);
+
+-- Jornada 18
+EXEC INSERT_PARTIDO ('03/01/1981', 3, 0, 'Las Palmas', 2, 0, 'Osasuna', 1, 0);
+EXEC INSERT_PARTIDO ('04/01/1981', 0, 0, 'Barcelona', 1, 0, 'Murcia', 3, 0);
+EXEC INSERT_PARTIDO ('04/01/1981', 0, 0, 'Betis', 2, 0, 'Sporting de Gijón', 1, 0);
+EXEC INSERT_PARTIDO ('04/01/1981', 1, 0, 'Hércules', 2, 0, 'Español', 1, 0);
+EXEC INSERT_PARTIDO ('04/01/1981', 0, 0, 'Real Sociedad', 2, 1, 'Valencia', 0, 0);
+EXEC INSERT_PARTIDO ('04/01/1981', 1, 0, 'Real Madrid', 4, 0, 'AD Almería', 2, 1);
+EXEC INSERT_PARTIDO ('04/01/1981', 2, 0, 'Salamanca', 0, 0, 'Sevilla', 2, 1);
+EXEC INSERT_PARTIDO ('04/01/1981', 2, 0, 'Valladolid', 0, 2, 'Atlético de Madrid', 2, 0);
+EXEC INSERT_PARTIDO ('04/01/1981', 3, 1, 'Zaragoza', 2, 3, 'Athletic Club', 2, 0);
+
+-- Jornada 19
+EXEC INSERT_PARTIDO ('11/01/1981', 2, 1, 'AD Almería', 1, 1, 'Valladolid', 3, 1);
+EXEC INSERT_PARTIDO ('11/01/1981', 0, 0, 'Athletic Club', 1, 1, 'Real Madrid', 0, 0);
+EXEC INSERT_PARTIDO ('11/01/1981', 0, 0, 'Atlético de Madrid', 2, 2, 'Las Palmas', 1, 0);
+EXEC INSERT_PARTIDO ('11/01/1981', 2, 0, 'Betis', 1, 1, 'Valencia', 0, 0);
+EXEC INSERT_PARTIDO ('11/01/1981', 1, 0, 'Español', 1, 0, 'Barcelona', 2, 0);
+EXEC INSERT_PARTIDO ('11/01/1981', 2, 0, 'Sporting de Gijón', 3, 1, 'Hércules', 1, 1);
+EXEC INSERT_PARTIDO ('11/01/1981', 1, 0, 'Murcia', 1, 1, 'Salamanca', 0, 0);
+EXEC INSERT_PARTIDO ('11/01/1981', 0, 0, 'Osasuna', 0, 3, 'Real Sociedad', 0, 0);
+EXEC INSERT_PARTIDO ('11/01/1981', 1, 0, 'Sevilla', 0, 0, 'Zaragoza', 2, 1);
+
+-- Jornada 20
+EXEC INSERT_PARTIDO ('17/01/1981', 2, 0, 'Real Sociedad', 2, 0, 'Las Palmas', 1, 0);
+EXEC INSERT_PARTIDO ('18/01/1981', 2, 0, 'AD Almería', 2, 1, 'Atlético de Madrid', 1, 0);
+EXEC INSERT_PARTIDO ('18/01/1981', 1, 0, 'Barcelona', 3, 1, 'Sporting de Gijón', 1, 0);
+EXEC INSERT_PARTIDO ('18/01/1981', 1, 0, 'Betis', 1, 1, 'Osasuna', 1, 0);
+EXEC INSERT_PARTIDO ('18/01/1981', 2, 0, 'Hércules', 1, 1, 'Valencia', 3, 0);
+EXEC INSERT_PARTIDO ('18/01/1981', 1, 0, 'Real Madrid', 3, 2, 'Sevilla', 2, 0);
+EXEC INSERT_PARTIDO ('18/01/1981', 1, 0, 'Salamanca', 3, 2, 'Español', 1, 0);
+EXEC INSERT_PARTIDO ('18/01/1981', 0, 0, 'Valladolid', 0, 0, 'Athletic Club', 0, 0);
+EXEC INSERT_PARTIDO ('18/01/1981', 1, 0, 'Zaragoza', 1, 6, 'Murcia', 1, 0);
+
+-- Jornada 21
+EXEC INSERT_PARTIDO ('24/01/1981', 0, 0, 'Las Palmas', 2, 4, 'Betis', 0, 0);
+EXEC INSERT_PARTIDO ('25/01/1981', 0, 0, 'Athletic Club', 5, 1, 'AD Almería', 1, 0);
+EXEC INSERT_PARTIDO ('25/01/1981', 0, 0, 'Atlético de Madrid', 2, 0, 'Real Sociedad', 1, 0);
+EXEC INSERT_PARTIDO ('25/01/1981', 3, 1, 'Español', 1, 1, 'Zaragoza', 2, 0);
+EXEC INSERT_PARTIDO ('25/01/1981', 0, 0, 'Sporting de Gijón', 4, 0, 'Salamanca', 1, 0);
+EXEC INSERT_PARTIDO ('25/01/1981', 1, 0, 'Murcia', 1, 1, 'Real Madrid', 0, 0);
+EXEC INSERT_PARTIDO ('25/01/1981', 0, 0, 'Osasuna', 1, 2, 'Hércules', 0, 0);
+EXEC INSERT_PARTIDO ('25/01/1981', 0, 0, 'Sevilla', 1, 0, 'Valladolid', 0, 0);
+EXEC INSERT_PARTIDO ('25/01/1981', 0, 0, 'Valencia', 3, 3, 'Barcelona', 1, 0);
+
+-- Jornada 22
+EXEC INSERT_PARTIDO ('01/02/1981', 3, 0, 'AD Almería', 0, 0, 'Sevilla', 2, 0);
+EXEC INSERT_PARTIDO ('01/02/1981', 1, 0, 'Athletic Club', 3, 1, 'Atlético de Madrid', 3, 1);
+EXEC INSERT_PARTIDO ('01/02/1981', 2, 1, 'Barcelona', 6, 0, 'Osasuna', 2, 1);
+EXEC INSERT_PARTIDO ('01/02/1981', 0, 0, 'Betis', 1, 0, 'Real Sociedad', 0, 0);
+EXEC INSERT_PARTIDO ('01/02/1981', 2, 1, 'Hércules', 2, 3, 'Las Palmas', 3, 0);
+EXEC INSERT_PARTIDO ('01/02/1981', 1, 0, 'Real Madrid', 1, 2, 'Español', 2, 0);
+EXEC INSERT_PARTIDO ('01/02/1981', 1, 0, 'Salamanca', 0, 1, 'Valencia', 1, 0);
+EXEC INSERT_PARTIDO ('01/02/1981', 0, 0, 'Valladolid', 1, 0, 'Murcia', 1, 0);
+EXEC INSERT_PARTIDO ('01/02/1981', 0, 0, 'Zaragoza', 0, 0, 'Sporting de Gijón', 0, 0);
+
+-- Jornada 23
+EXEC INSERT_PARTIDO ('07/02/1981', 0, 0, 'Las Palmas', 1, 4, 'Barcelona', 0, 0);
+EXEC INSERT_PARTIDO ('08/02/1981', 2, 0, 'Atlético de Madrid', 0, 4, 'Betis', 0, 0);
+EXEC INSERT_PARTIDO ('08/02/1981', 2, 0, 'Español', 0, 0, 'Valladolid', 3, 0);
+EXEC INSERT_PARTIDO ('08/02/1981', 0, 0, 'Sporting de Gijón', 4, 0, 'Real Madrid', 1, 0);
+EXEC INSERT_PARTIDO ('08/02/1981', 1, 0, 'Murcia', 2, 1, 'AD Almería', 2, 0);
+EXEC INSERT_PARTIDO ('08/02/1981', 1, 0, 'Osasuna', 1, 1, 'Salamanca', 1, 0);
+EXEC INSERT_PARTIDO ('08/02/1981', 0, 0, 'Real Sociedad', 1, 1, 'Hércules', 0, 0);
+EXEC INSERT_PARTIDO ('08/02/1981', 2, 1, 'Sevilla', 2, 0, 'Athletic Club', 2, 0);
+EXEC INSERT_PARTIDO ('08/02/1981', 0, 0, 'Valencia', 3, 0, 'Zaragoza', 0, 0);
+
+-- Jornada 24
+EXEC INSERT_PARTIDO ('15/02/1981', 2, 0, 'AD Almería', 2, 0, 'Español', 3, 0);
+EXEC INSERT_PARTIDO ('15/02/1981', 1, 0, 'Athletic Club', 3, 0, 'Murcia', 2, 1);
+EXEC INSERT_PARTIDO ('15/02/1981', 1, 0, 'Barcelona', 2, 0, 'Real Sociedad', 2, 0);
+EXEC INSERT_PARTIDO ('15/02/1981', 1, 0, 'Hércules', 0, 1, 'Betis', 2, 0);
+EXEC INSERT_PARTIDO ('15/02/1981', 3, 1, 'Real Madrid', 2, 1, 'Valencia', 3, 0);
+EXEC INSERT_PARTIDO ('15/02/1981', 1, 1, 'Salamanca', 0, 2, 'Las Palmas', 1, 0);
+EXEC INSERT_PARTIDO ('15/02/1981', 0, 1, 'Sevilla', 1, 1, 'Atlético de Madrid', 3, 0);
+EXEC INSERT_PARTIDO ('15/02/1981', 1, 0, 'Valladolid', 1, 2, 'Sporting de Gijón', 0, 0);
+EXEC INSERT_PARTIDO ('15/02/1981', 2, 1, 'Zaragoza', 3, 1, 'Osasuna', 3, 0);
+
+-- Jornada 25
+EXEC INSERT_PARTIDO ('21/02/1981', 2, 0, 'Las Palmas', 3, 0, 'Zaragoza', 0, 0);
+EXEC INSERT_PARTIDO ('22/02/1981', 2, 0, 'Atlético de Madrid', 1, 0, 'Hércules', 1, 0);
+EXEC INSERT_PARTIDO ('22/02/1981', 1, 0, 'Betis', 1, 1, 'Barcelona', 2, 0);
+EXEC INSERT_PARTIDO ('22/02/1981', 2, 0, 'Español', 1, 0, 'Athletic Club', 0, 0);
+EXEC INSERT_PARTIDO ('22/02/1981', 0, 0, 'Sporting de Gijón', 5, 2, 'AD Almería', 1, 1);
+EXEC INSERT_PARTIDO ('22/02/1981', 1, 0, 'Murcia', 0, 0, 'Sevilla', 0, 0);
+EXEC INSERT_PARTIDO ('22/02/1981', 1, 0, 'Osasuna', 1, 2, 'Real Madrid', 1, 0);
+EXEC INSERT_PARTIDO ('22/02/1981', 0, 0, 'Real Sociedad', 1, 0, 'Salamanca', 0, 0);
+EXEC INSERT_PARTIDO ('22/02/1981', 0, 0, 'Valencia', 2, 2, 'Valladolid', 3, 0);
+
+-- Jornada 26
+EXEC INSERT_PARTIDO ('28/02/1981', 2, 0, 'Real Madrid', 3, 0, 'Las Palmas', 3, 0);
+EXEC INSERT_PARTIDO ('01/03/1981', 1, 0, 'AD Almería', 1, 0, 'Valencia', 3, 0);
+EXEC INSERT_PARTIDO ('01/03/1981', 0, 0, 'Athletic Club', 1, 1, 'Sporting de Gijón', 0, 0);
+EXEC INSERT_PARTIDO ('01/03/1981', 2, 0, 'Barcelona', 6, 0, 'Hércules', 1, 0);
+EXEC INSERT_PARTIDO ('01/03/1981', 3, 0, 'Murcia', 0, 2, 'Atlético de Madrid', 2, 0);
+EXEC INSERT_PARTIDO ('01/03/1981', 0, 0, 'Salamanca', 2, 0, 'Betis', 1, 0);
+EXEC INSERT_PARTIDO ('01/03/1981', 0, 0, 'Sevilla', 2, 0, 'Español', 0, 0);
+EXEC INSERT_PARTIDO ('01/03/1981', 1, 0, 'Valladolid', 2, 1, 'Osasuna', 1, 0);
+EXEC INSERT_PARTIDO ('01/03/1981', 2, 0, 'Zaragoza', 0, 1, 'Real Sociedad', 1, 0);
+
+-- Jornada 27
+EXEC INSERT_PARTIDO ('08/03/1981', 1, 0, 'Atlético de Madrid', 1, 0, 'Barcelona', 0, 0);
+EXEC INSERT_PARTIDO ('08/03/1981', 1, 0, 'Betis', 2, 0, 'Zaragoza', 2, 0);
+EXEC INSERT_PARTIDO ('08/03/1981', 1, 0, 'Español', 2, 1, 'Murcia', 3, 0);
+EXEC INSERT_PARTIDO ('08/03/1981', 0, 0, 'Sporting de Gijón', 3, 0, 'Sevilla', 1, 0);
+EXEC INSERT_PARTIDO ('08/03/1981', 2, 0, 'Hércules', 3, 2, 'Salamanca', 1, 1);
+EXEC INSERT_PARTIDO ('08/03/1981', 0, 0, 'Las Palmas', 0, 2, 'Valladolid', 1, 0);
+EXEC INSERT_PARTIDO ('08/03/1981', 1, 1, 'Osasuna', 2, 1, 'AD Almería', 2, 0);
+EXEC INSERT_PARTIDO ('08/03/1981', 3, 0, 'Real Sociedad', 3, 1, 'Real Madrid', 4, 1);
+EXEC INSERT_PARTIDO ('08/03/1981', 3, 0, 'Valencia', 0, 0, 'Athletic Club', 1, 0);
+
+-- Jornada 28
+EXEC INSERT_PARTIDO ('15/03/1981', 1, 0, 'AD Almería', 0, 1, 'Las Palmas', 0, 0);
+EXEC INSERT_PARTIDO ('15/03/1981', 0, 0, 'Athletic Club', 1, 1, 'Osasuna', 1, 0);
+EXEC INSERT_PARTIDO ('15/03/1981', 0, 0, 'Español', 2, 0, 'Atlético de Madrid', 0, 0);
+EXEC INSERT_PARTIDO ('15/03/1981', 2, 0, 'Murcia', 2, 1, 'Sporting de Gijón', 1, 0);
+EXEC INSERT_PARTIDO ('15/03/1981', 0, 0, 'Real Madrid', 4, 2, 'Betis', 3, 0);
+EXEC INSERT_PARTIDO ('15/03/1981', 0, 0, 'Salamanca', 2, 1, 'Barcelona', 0, 0);
+EXEC INSERT_PARTIDO ('15/03/1981', 0, 0, 'Sevilla', 1, 0, 'Valencia', 1, 0);
+EXEC INSERT_PARTIDO ('15/03/1981', 1, 0, 'Valladolid', 0, 0, 'Real Sociedad', 0, 0);
+EXEC INSERT_PARTIDO ('15/03/1981', 3, 0, 'Zaragoza', 1, 1, 'Hércules', 3, 0);
+
+-- Jornada 29
+EXEC INSERT_PARTIDO ('21/03/1981', 1, 0, 'Las Palmas', 1, 3, 'Athletic Club', 1, 0);
+EXEC INSERT_PARTIDO ('22/03/1981', 0, 0, 'Atlético de Madrid', 1, 1, 'Salamanca', 0, 0);
+EXEC INSERT_PARTIDO ('22/03/1981', 1, 0, 'Barcelona', 0, 0, 'Zaragoza', 1, 0);
+EXEC INSERT_PARTIDO ('22/03/1981', 0, 0, 'Betis', 2, 2, 'Valladolid', 0, 0);
+EXEC INSERT_PARTIDO ('22/03/1981', 0, 0, 'Sporting de Gijón', 0, 1, 'Español', 2, 0);
+EXEC INSERT_PARTIDO ('22/03/1981', 3, 1, 'Hércules', 1, 2, 'Real Madrid', 1, 0);
+EXEC INSERT_PARTIDO ('22/03/1981', 1, 0, 'Osasuna', 2, 1, 'Sevilla', 2, 0);
+EXEC INSERT_PARTIDO ('22/03/1981', 0, 0, 'Real Sociedad', 3, 1, 'AD Almería', 0, 0);
+EXEC INSERT_PARTIDO ('22/03/1981', 4, 0, 'Valencia', 3, 2, 'Murcia', 1, 0);
+
+-- Jornada 30
+EXEC INSERT_PARTIDO ('29/03/1981', 0, 0, 'AD Almería', 0, 2, 'Betis', 1, 0);
+EXEC INSERT_PARTIDO ('29/03/1981', 1, 0, 'Athletic Club', 0, 2, 'Real Sociedad', 1, 0);
+EXEC INSERT_PARTIDO ('29/03/1981', 1, 0, 'Español', 1, 2, 'Valencia', 1, 0);
+EXEC INSERT_PARTIDO ('29/03/1981', 1, 0, 'Sporting de Gijón', 3, 0, 'Atlético de Madrid', 3, 1);
+EXEC INSERT_PARTIDO ('29/03/1981', 0, 1, 'Murcia', 1, 0, 'Osasuna', 0, 0);
+EXEC INSERT_PARTIDO ('29/03/1981', 0, 0, 'Real Madrid', 3, 0, 'Barcelona', 2, 0);
+EXEC INSERT_PARTIDO ('29/03/1981', 1, 0, 'Sevilla', 3, 2, 'Las Palmas', 2, 0);
+EXEC INSERT_PARTIDO ('29/03/1981', 1, 0, 'Valladolid', 2, 1, 'Hércules', 0, 0);
+EXEC INSERT_PARTIDO ('29/03/1981', 0, 0, 'Zaragoza', 2, 0, 'Salamanca', 1, 0);
+
+-- Jornada 31
+EXEC INSERT_PARTIDO ('04/04/1981', 3, 0, 'Las Palmas', 1, 2, 'Murcia', 1, 0);
+EXEC INSERT_PARTIDO ('04/04/1981', 0, 0, 'Salamanca', 1, 3, 'Real Madrid', 0, 0);
+EXEC INSERT_PARTIDO ('05/04/1981', 2, 2, 'Atlético de Madrid', 1, 2, 'Zaragoza', 2, 0);
+EXEC INSERT_PARTIDO ('05/04/1981', 1, 0, 'Barcelona', 2, 1, 'Valladolid', 1, 0);
+EXEC INSERT_PARTIDO ('05/04/1981', 0, 0, 'Betis', 2, 0, 'Athletic Club', 0, 0);
+EXEC INSERT_PARTIDO ('05/04/1981', 0, 0, 'Hércules', 1, 0, 'AD Almería', 0, 0);
+EXEC INSERT_PARTIDO ('05/04/1981', 0, 0, 'Osasuna', 1, 0, 'Español', 1, 0);
+EXEC INSERT_PARTIDO ('05/04/1981', 1, 0, 'Real Sociedad', 3, 0, 'Sevilla', 3, 0);
+EXEC INSERT_PARTIDO ('05/04/1981', 1, 0, 'Valencia', 3, 1, 'Sporting de Gijón', 2, 0);
+
+-- Jornada 32
+EXEC INSERT_PARTIDO ('12/04/1981', 2, 0, 'AD Almería', 2, 5, 'Barcelona', 0, 0);
+EXEC INSERT_PARTIDO ('12/04/1981', 0, 0, 'Athletic Club', 5, 3, 'Hércules', 0, 0);
+EXEC INSERT_PARTIDO ('12/04/1981', 0, 0, 'Español', 3, 1, 'Las Palmas', 0, 0);
+EXEC INSERT_PARTIDO ('12/04/1981', 0, 0, 'Sporting de Gijón', 5, 1, 'Osasuna', 0, 0);
+EXEC INSERT_PARTIDO ('12/04/1981', 1, 0, 'Murcia', 0, 2, 'Real Sociedad', 0, 0);
+EXEC INSERT_PARTIDO ('12/04/1981', 1, 1, 'Real Madrid', 2, 0, 'Zaragoza', 2, 1);
+EXEC INSERT_PARTIDO ('12/04/1981', 2, 0, 'Sevilla', 2, 1, 'Betis', 2, 0);
+EXEC INSERT_PARTIDO ('12/04/1981', 3, 1, 'Valencia', 1, 1, 'Atlético de Madrid', 2, 0);
+EXEC INSERT_PARTIDO ('12/04/1981', 0, 0, 'Valladolid', 3, 0, 'Salamanca', 4, 0);
+
+-- Jornada 33
+EXEC INSERT_PARTIDO ('19/04/1981', 3, 0, 'Barcelona', 0, 1, 'Athletic Club', 2, 0);
+EXEC INSERT_PARTIDO ('19/04/1981', 0, 0, 'Betis', 1, 0, 'Murcia', 0, 0);
+EXEC INSERT_PARTIDO ('19/04/1981', 0, 0, 'Hércules', 5, 1, 'Sevilla', 0, 0);
+EXEC INSERT_PARTIDO ('19/04/1981', 0, 0, 'Las Palmas', 3, 1, 'Sporting de Gijón', 0, 0);
+EXEC INSERT_PARTIDO ('19/04/1981', 1, 0, 'Osasuna', 2, 0, 'Valencia', 2, 0);
+EXEC INSERT_PARTIDO ('19/04/1981', 2, 0, 'Real Sociedad', 2, 1, 'Español', 2, 1);
+EXEC INSERT_PARTIDO ('19/04/1981', 1, 0, 'Real Madrid', 2, 0, 'Atlético de Madrid', 2, 0);
+EXEC INSERT_PARTIDO ('19/04/1981', 0, 0, 'Salamanca', 2, 1, 'AD Almería', 0, 0);
+EXEC INSERT_PARTIDO ('19/04/1981', 1, 0, 'Zaragoza', 1, 1, 'Valladolid', 1, 0);
+
+-- Jornada 34
+EXEC INSERT_PARTIDO ('25/04/1981', 0, 0, 'Athletic Club', 6, 1, 'Salamanca', 0, 0);
+EXEC INSERT_PARTIDO ('26/04/1981', 2, 0, 'AD Almería', 3, 1, 'Zaragoza', 1, 0);
+EXEC INSERT_PARTIDO ('26/04/1981', 0, 0, 'Atlético de Madrid', 0, 0, 'Osasuna', 0, 0);
+EXEC INSERT_PARTIDO ('26/04/1981', 0, 0, 'Español', 1, 2, 'Betis', 0, 0);
+EXEC INSERT_PARTIDO ('26/04/1981', 3, 0, 'Sporting de Gijón', 2, 2, 'Real Sociedad', 2, 0);
+EXEC INSERT_PARTIDO ('26/04/1981', 0, 0, 'Murcia', 2, 2, 'Hércules', 0, 0);
+EXEC INSERT_PARTIDO ('26/04/1981', 1, 0, 'Sevilla', 1, 1, 'Barcelona', 0, 0);
+EXEC INSERT_PARTIDO ('26/04/1981', 0, 0, 'Valencia', 3, 1, 'Las Palmas', 1, 0);
+EXEC INSERT_PARTIDO ('26/04/1981', 0, 0, 'Valladolid', 1, 3, 'Real Madrid', 0, 0);
+

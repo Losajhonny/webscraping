@@ -28,6 +28,8 @@ for season in seasons:
     year = season.text.split('-')
     year_ini = year[0]
     year_fin = year[0][0:2] + year[1]
+    if year_ini == '1999' and year_fin == '1900':
+            year_fin = '2000'
     cadena_temporadas += "EXEC INSERT_TEMPORADA ("
     cadena_temporadas += str(year_ini) + ", "
     cadena_temporadas += str(year_fin) + ");\n"
@@ -147,9 +149,9 @@ for season in seasons:
         cadena_jornada_temporada += str(year_ini) + ", "
         cadena_jornada_temporada += str(year_fin) + ");\n"
 
-        cadena_partidos += "-- " + nombre_jornada + "\n" + cadena_partido_jornada + "\n" + "COMMIT;\n"
+        cadena_partidos += "-- " + nombre_jornada + "\n" + cadena_partido_jornada + "COMMIT;" + "\n"
 
-    cadena_tmp = "-- Temporada " + str(year_fin) + "-" + str(year_ini) + "\n\n" + cadena_alertas + "\n" + cadena_jornada_temporada + "\nCOMMIT;\n" + cadena_partidos
+    cadena_tmp = "-- Temporada " + str(year_fin) + "-" + str(year_ini) + "\n\n" + cadena_alertas + "\n" + cadena_jornada_temporada + "COMMIT;\n" + cadena_partidos
     f = open("Temporada_" + str(year_fin) + "_" + str(year_ini) + ".sql", 'w')
     f.write(cadena_tmp)
     f.close()

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="666093CB-73ED-164F-E357-30DF8C71297D" name="EQUIPO">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:28:47 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="C572EFA0-BF18-3CA5-6A78-390E029DF672" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="EA9BC325-1D44-8648-AB0C-9F2826FAB687">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:29:40 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="C572EFA0-BF18-3CA5-6A78-390E029DF672" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="B10A8BED-6922-545F-5485-62949CE1D1D6">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:30:06 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="C572EFA0-BF18-3CA5-6A78-390E029DF672" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F3917A6-B14A-93BF-F713-C84428104BFB" name="EQUIPO PK">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:30:03 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="C572EFA0-BF18-3CA5-6A78-390E029DF672" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA9BC325-1D44-8648-AB0C-9F2826FAB687</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

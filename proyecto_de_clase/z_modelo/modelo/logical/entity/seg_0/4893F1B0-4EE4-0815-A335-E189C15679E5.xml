@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4893F1B0-4EE4-0815-A335-E189C15679E5" name="JORNADA">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:31:04 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="0DE28483-F4FB-3B92-D508-0E8479EA1461" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="EB1BFB0B-74F9-711B-566F-CB53B18C2A0D">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:31:33 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="0DE28483-F4FB-3B92-D508-0E8479EA1461" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="9D4A6B0E-85BF-15AC-E583-4B29A54DD718">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 22:56:44 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="0DE28483-F4FB-3B92-D508-0E8479EA1461" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="642F6F2D-1E18-C2DA-CB78-665E24A2FAE4">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:31:48 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="0DE28483-F4FB-3B92-D508-0E8479EA1461" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ini" id="8C839DCE-32F0-3346-1B31-2CBAC9861C94">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:32:05 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="0DE28483-F4FB-3B92-D508-0E8479EA1461" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_fin" id="0633778A-7B06-C7CA-7FAB-3AEAFF72B780">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:32:33 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="0DE28483-F4FB-3B92-D508-0E8479EA1461" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="6777B6DD-3342-3854-619F-29B0068F5662">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:35:34 UTC</createdTime>
+<generatorID>7761B2C8-3925-B6FE-7D8E-AFB126E33E11</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="0DE28483-F4FB-3B92-D508-0E8479EA1461" value="true"/>
+</engineerTo>
+<referedAttribute>1BB525C1-2CA9-5F95-929C-C724C558EDF0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6C9823C-06BB-21C5-AB93-87253FEAA964" name="JORNADA PK">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:31:46 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="0DE28483-F4FB-3B92-D508-0E8479EA1461" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB1BFB0B-74F9-711B-566F-CB53B18C2A0D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

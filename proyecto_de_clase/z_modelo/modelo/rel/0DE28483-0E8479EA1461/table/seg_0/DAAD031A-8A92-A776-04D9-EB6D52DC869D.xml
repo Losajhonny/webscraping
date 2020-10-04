@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAAD031A-8A92-A776-04D9-EB6D52DC869D" name="EQUIPO">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-04 00:48:14 UTC</createdTime>
+<generatorID>666093CB-73ED-164F-E357-30DF8C71297D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E995657F-A208-82E5-7ED4-8A3DF80EDA86">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-04 00:48:14 UTC</createdTime>
+<generatorID>EA9BC325-1D44-8648-AB0C-9F2826FAB687</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E28C5EF9-45E3-7414-32F2-283013EC313F">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-04 00:48:14 UTC</createdTime>
+<generatorID>B10A8BED-6922-545F-5485-62949CE1D1D6</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E96C10C9-2E14-22C6-65E0-0C14BB55B890" name="EQUIPO_PK">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-04 00:48:14 UTC</createdTime>
+<generatorID>2F3917A6-B14A-93BF-F713-C84428104BFB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E995657F-A208-82E5-7ED4-8A3DF80EDA86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

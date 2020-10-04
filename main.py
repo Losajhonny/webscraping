@@ -16,9 +16,9 @@ seasons = list()
 cont = 0
 for i in it:
     for a in i.find_all('a'):
-        if 0 < cont <= 41:
+        if 0 < cont <= 40:
             seasons.append(a)
-        if cont > 41:
+        if cont > 40:
             break
         cont += 1
 
@@ -45,6 +45,7 @@ for season in seasons:
     aj = soup.find_all('div', class_='alert alert-warning mt-3 f14 text-justify')
     for alerta in aj:
         cadena_alertas += "EXEC INSERT_ALERTA(" + str(year_ini) + ", " + str(year_fin) + ", '" + alerta.text + "');\n"
+    cadena_alertas += "COMMIT;\n";
 
     # buscar jornadas
     it = soup.find_all('div', class_='jornada p-2')
@@ -133,7 +134,10 @@ for season in seasons:
             cadena_partido_jornada += str(visit_gol) + ", "
             cadena_partido_jornada += "'" + visit + "', "
             cadena_partido_jornada += str(visit_ta) + ", "
-            cadena_partido_jornada += str(visit_tr) + ");\n"
+            cadena_partido_jornada += str(visit_tr) + ", "
+            cadena_partido_jornada += str(numero_jornada) + ", "
+            cadena_partido_jornada += str(year_ini) + ", "
+            cadena_partido_jornada += str(year_fin) + ");\n"
 
         cadena_jornada_temporada += "EXEC INSERT_JORNADA ("
         cadena_jornada_temporada += "'" + nombre_jornada + "', "
@@ -143,13 +147,13 @@ for season in seasons:
         cadena_jornada_temporada += str(year_ini) + ", "
         cadena_jornada_temporada += str(year_fin) + ");\n"
 
-        cadena_partidos += "-- " + nombre_jornada + "\n" + cadena_partido_jornada + "\n"
+        cadena_partidos += "-- " + nombre_jornada + "\n" + cadena_partido_jornada + "\n" + "COMMIT;\n"
 
-    cadena_tmp = "-- Temporada " + str(year_fin) + "-" + str(year_ini) + "\n\n" + cadena_alertas + "\n" + cadena_jornada_temporada + "\n" + cadena_partidos
+    cadena_tmp = "-- Temporada " + str(year_fin) + "-" + str(year_ini) + "\n\n" + cadena_alertas + "\n" + cadena_jornada_temporada + "\nCOMMIT;\n" + cadena_partidos
     f = open("Temporada_" + str(year_fin) + "_" + str(year_ini) + ".sql", 'w')
     f.write(cadena_tmp)
     f.close()
 
-f = open('temporadas.sql','w')
+f = open('Temporadas.sql','w')
 f.write(cadena_temporadas)
 f.close()

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AEE55143-B4FD-A053-5AF2-2148AD63D09F" containerWithKeyObject="C3088F16-5785-B476-C515-E71B67C0B14D" localFKIndex="0321FEF3-9025-05CF-CD09-3C047CC8A01E" name="PARTIDO_JORNADA_FK">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-04 00:48:14 UTC</createdTime>
+<generatorID>39E0AA17-E36A-C03C-F84A-8CD4596F12B3</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>JORNADA</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>C5B70EAB-E107-DF3B-EA82-713F88C9C660</referredTableID>
+<keyObject>DC454456-5F24-E116-C830-94B42C2BC39B</keyObject>
+<referredKeyID>DC454456-5F24-E116-C830-94B42C2BC39B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

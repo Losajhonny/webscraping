@@ -1,0 +1,538 @@
+-- Temporada 1992-1991
+
+COMMIT;
+
+EXEC INSERT_JORNADA ('Jornada 1', 1, '31/08/1991', '01/09/1991', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 2', 2, '07/09/1991', '08/09/1991', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 3', 3, '14/09/1991', '15/09/1991', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 4', 4, '28/09/1991', '29/09/1991', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 5', 5, '05/10/1991', '06/10/1991', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 6', 6, '19/10/1991', '20/10/1991', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 7', 7, '26/10/1991', '27/10/1991', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 8', 8, '02/11/1991', '03/11/1991', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 9', 9, '09/11/1991', '10/11/1991', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 10', 10, '16/11/1991', '17/11/1991', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 11', 11, '23/11/1991', '24/11/1991', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 12', 12, '30/11/1991', '12/02/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 13', 13, '07/12/1991', '08/12/1991', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 14', 14, '14/12/1991', '15/12/1991', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 15', 15, '21/12/1991', '22/12/1991', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 16', 16, '04/01/1992', '05/01/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 17', 17, '11/01/1992', '12/01/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 18', 18, '18/01/1992', '19/01/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 19', 19, '25/01/1992', '26/01/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 20', 20, '01/02/1992', '02/02/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 21', 21, '08/02/1992', '09/02/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 22', 22, '15/02/1992', '16/02/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 23', 23, '22/02/1992', '23/02/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 24', 24, '29/02/1992', '01/03/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 25', 25, '07/03/1992', '08/03/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 26', 26, '14/03/1992', '15/03/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 27', 27, '21/03/1992', '22/03/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 28', 28, '28/03/1992', '29/03/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 29', 29, '04/04/1992', '05/04/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 30', 30, '11/04/1992', '12/04/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 31', 31, '18/04/1992', '19/04/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 32', 32, '25/04/1992', '26/04/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 33', 33, '02/05/1992', '03/05/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 34', 34, '09/05/1992', '10/05/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 35', 35, '16/05/1992', '17/05/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 36', 36, '23/05/1992', '24/05/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 37', 37, '30/05/1992', '31/05/1992', 1991, 1992);
+EXEC INSERT_JORNADA ('Jornada 38', 38, '06/06/1992', '07/06/1992', 1991, 1992);
+
+COMMIT;
+-- Jornada 1
+EXEC INSERT_PARTIDO ('31/08/1991', 3, 0, 'Athletic Club', 0, 2, 'Sevilla', 3, 0, 1, 1991, 1992);
+EXEC INSERT_PARTIDO ('31/08/1991', 1, 0, 'Cádiz', 0, 1, 'Real Madrid', 1, 0, 1, 1991, 1992);
+EXEC INSERT_PARTIDO ('31/08/1991', 1, 1, 'Valencia', 2, 1, 'Deportivo de La Coruña', 1, 1, 1, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/09/1991', 1, 0, 'Atlético de Madrid', 2, 0, 'Real Burgos', 2, 2, 1, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/09/1991', 0, 0, 'Barcelona', 2, 0, 'Real Sociedad', 0, 0, 1, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/09/1991', 1, 0, 'Osasuna', 2, 0, 'Albacete', 1, 0, 1, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/09/1991', 3, 0, 'Oviedo', 0, 0, 'Mallorca', 3, 0, 1, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/09/1991', 2, 0, 'Tenerife', 3, 0, 'Logroñés', 2, 0, 1, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/09/1991', 2, 0, 'Valladolid', 0, 1, 'Sporting de Gijón', 3, 0, 1, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/09/1991', 2, 0, 'Zaragoza', 1, 1, 'Español', 3, 0, 1, 1991, 1992);
+
+COMMIT;
+-- Jornada 2
+EXEC INSERT_PARTIDO ('07/09/1991', 2, 0, 'Sevilla', 4, 2, 'Barcelona', 3, 0, 2, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/09/1991', 0, 0, 'Albacete', 1, 0, 'Valencia', 2, 0, 2, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/09/1991', 1, 1, 'Deportivo de La Coruña', 1, 1, 'Tenerife', 3, 0, 2, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/09/1991', 5, 1, 'Español', 0, 1, 'Oviedo', 5, 0, 2, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/09/1991', 1, 0, 'Sporting de Gijón', 3, 2, 'Athletic Club', 1, 0, 2, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/09/1991', 4, 1, 'Logroñés', 2, 1, 'Cádiz', 1, 0, 2, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/09/1991', 3, 0, 'Mallorca', 0, 2, 'Atlético de Madrid', 2, 0, 2, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/09/1991', 1, 0, 'Real Sociedad', 0, 0, 'Zaragoza', 2, 0, 2, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/09/1991', 3, 0, 'Real Burgos', 4, 0, 'Osasuna', 1, 0, 2, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/09/1991', 1, 0, 'Real Madrid', 1, 0, 'Valladolid', 3, 0, 2, 1991, 1992);
+
+COMMIT;
+-- Jornada 3
+EXEC INSERT_PARTIDO ('14/09/1991', 4, 0, 'Athletic Club', 1, 4, 'Real Madrid', 1, 0, 3, 1991, 1992);
+EXEC INSERT_PARTIDO ('14/09/1991', 2, 0, 'Barcelona', 3, 1, 'Zaragoza', 2, 0, 3, 1991, 1992);
+EXEC INSERT_PARTIDO ('14/09/1991', 2, 0, 'Osasuna', 1, 0, 'Mallorca', 5, 0, 3, 1991, 1992);
+EXEC INSERT_PARTIDO ('14/09/1991', 2, 0, 'Oviedo', 2, 0, 'Real Sociedad', 0, 0, 3, 1991, 1992);
+EXEC INSERT_PARTIDO ('14/09/1991', 1, 0, 'Valencia', 1, 1, 'Real Burgos', 3, 0, 3, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/09/1991', 3, 0, 'Atlético de Madrid', 3, 0, 'Español', 3, 1, 3, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/09/1991', 2, 0, 'Cádiz', 1, 0, 'Deportivo de La Coruña', 1, 0, 3, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/09/1991', 3, 0, 'Sevilla', 2, 1, 'Sporting de Gijón', 2, 0, 3, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/09/1991', 3, 4, 'Tenerife', 2, 3, 'Albacete', 1, 0, 3, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/09/1991', 1, 0, 'Valladolid', 1, 2, 'Logroñés', 2, 0, 3, 1991, 1992);
+
+COMMIT;
+-- Jornada 4
+EXEC INSERT_PARTIDO ('28/09/1991', 3, 0, 'Sporting de Gijón', 2, 1, 'Barcelona', 5, 1, 4, 1991, 1992);
+EXEC INSERT_PARTIDO ('28/09/1991', 1, 0, 'Real Sociedad', 0, 2, 'Atlético de Madrid', 2, 0, 4, 1991, 1992);
+EXEC INSERT_PARTIDO ('28/09/1991', 4, 1, 'Real Madrid', 3, 1, 'Sevilla', 1, 0, 4, 1991, 1992);
+EXEC INSERT_PARTIDO ('28/09/1991', 1, 0, 'Zaragoza', 3, 2, 'Oviedo', 2, 0, 4, 1991, 1992);
+EXEC INSERT_PARTIDO ('29/09/1991', 1, 0, 'Albacete', 0, 1, 'Cádiz', 3, 0, 4, 1991, 1992);
+EXEC INSERT_PARTIDO ('29/09/1991', 0, 0, 'Deportivo de La Coruña', 1, 0, 'Valladolid', 3, 0, 4, 1991, 1992);
+EXEC INSERT_PARTIDO ('29/09/1991', 3, 0, 'Español', 3, 2, 'Osasuna', 1, 0, 4, 1991, 1992);
+EXEC INSERT_PARTIDO ('29/09/1991', 1, 0, 'Logroñés', 0, 1, 'Athletic Club', 4, 0, 4, 1991, 1992);
+EXEC INSERT_PARTIDO ('29/09/1991', 1, 1, 'Mallorca', 0, 1, 'Valencia', 5, 0, 4, 1991, 1992);
+EXEC INSERT_PARTIDO ('29/09/1991', 3, 0, 'Real Burgos', 3, 1, 'Tenerife', 3, 0, 4, 1991, 1992);
+
+COMMIT;
+-- Jornada 5
+EXEC INSERT_PARTIDO ('05/10/1991', 4, 1, 'Valencia', 1, 0, 'Español', 3, 0, 5, 1991, 1992);
+EXEC INSERT_PARTIDO ('06/10/1991', 0, 0, 'Athletic Club', 0, 0, 'Deportivo de La Coruña', 1, 0, 5, 1991, 1992);
+EXEC INSERT_PARTIDO ('06/10/1991', 1, 0, 'Atlético de Madrid', 2, 1, 'Zaragoza', 2, 0, 5, 1991, 1992);
+EXEC INSERT_PARTIDO ('06/10/1991', 1, 0, 'Barcelona', 1, 2, 'Oviedo', 5, 0, 5, 1991, 1992);
+EXEC INSERT_PARTIDO ('06/10/1991', 1, 0, 'Cádiz', 0, 2, 'Real Burgos', 3, 0, 5, 1991, 1992);
+EXEC INSERT_PARTIDO ('06/10/1991', 2, 0, 'Sporting de Gijón', 1, 4, 'Real Madrid', 1, 0, 5, 1991, 1992);
+EXEC INSERT_PARTIDO ('06/10/1991', 0, 0, 'Osasuna', 1, 0, 'Real Sociedad', 1, 0, 5, 1991, 1992);
+EXEC INSERT_PARTIDO ('06/10/1991', 0, 0, 'Sevilla', 0, 1, 'Logroñés', 1, 0, 5, 1991, 1992);
+EXEC INSERT_PARTIDO ('06/10/1991', 1, 0, 'Tenerife', 0, 1, 'Mallorca', 2, 1, 5, 1991, 1992);
+EXEC INSERT_PARTIDO ('06/10/1991', 4, 1, 'Valladolid', 1, 0, 'Albacete', 1, 0, 5, 1991, 1992);
+
+COMMIT;
+-- Jornada 6
+EXEC INSERT_PARTIDO ('19/10/1991', 1, 0, 'Real Madrid', 1, 1, 'Barcelona', 4, 1, 6, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/10/1991', 4, 0, 'Oviedo', 0, 1, 'Atlético de Madrid', 2, 0, 6, 1991, 1992);
+EXEC INSERT_PARTIDO ('20/10/1991', 1, 0, 'Albacete', 4, 0, 'Athletic Club', 0, 2, 6, 1991, 1992);
+EXEC INSERT_PARTIDO ('20/10/1991', 1, 0, 'Deportivo de La Coruña', 3, 1, 'Sevilla', 5, 0, 6, 1991, 1992);
+EXEC INSERT_PARTIDO ('20/10/1991', 2, 0, 'Español', 2, 2, 'Tenerife', 1, 0, 6, 1991, 1992);
+EXEC INSERT_PARTIDO ('20/10/1991', 2, 0, 'Logroñés', 0, 0, 'Sporting de Gijón', 1, 0, 6, 1991, 1992);
+EXEC INSERT_PARTIDO ('20/10/1991', 3, 0, 'Mallorca', 1, 0, 'Cádiz', 8, 1, 6, 1991, 1992);
+EXEC INSERT_PARTIDO ('20/10/1991', 1, 0, 'Real Sociedad', 3, 1, 'Valencia', 4, 0, 6, 1991, 1992);
+EXEC INSERT_PARTIDO ('20/10/1991', 0, 0, 'Real Burgos', 1, 0, 'Valladolid', 2, 0, 6, 1991, 1992);
+EXEC INSERT_PARTIDO ('20/10/1991', 3, 0, 'Zaragoza', 2, 0, 'Osasuna', 2, 0, 6, 1991, 1992);
+
+COMMIT;
+-- Jornada 7
+EXEC INSERT_PARTIDO ('26/10/1991', 1, 0, 'Barcelona', 1, 0, 'Atlético de Madrid', 2, 0, 7, 1991, 1992);
+EXEC INSERT_PARTIDO ('27/10/1991', 0, 0, 'Athletic Club', 0, 0, 'Real Burgos', 1, 0, 7, 1991, 1992);
+EXEC INSERT_PARTIDO ('27/10/1991', 2, 0, 'Cádiz', 2, 1, 'Español', 3, 0, 7, 1991, 1992);
+EXEC INSERT_PARTIDO ('27/10/1991', 0, 0, 'Sporting de Gijón', 1, 0, 'Deportivo de La Coruña', 2, 0, 7, 1991, 1992);
+EXEC INSERT_PARTIDO ('27/10/1991', 2, 0, 'Osasuna', 1, 0, 'Oviedo', 1, 0, 7, 1991, 1992);
+EXEC INSERT_PARTIDO ('27/10/1991', 0, 0, 'Real Madrid', 3, 0, 'Logroñés', 2, 0, 7, 1991, 1992);
+EXEC INSERT_PARTIDO ('27/10/1991', 2, 0, 'Sevilla', 3, 0, 'Albacete', 2, 0, 7, 1991, 1992);
+EXEC INSERT_PARTIDO ('27/10/1991', 3, 0, 'Tenerife', 0, 0, 'Real Sociedad', 3, 0, 7, 1991, 1992);
+EXEC INSERT_PARTIDO ('27/10/1991', 2, 0, 'Valencia', 0, 1, 'Zaragoza', 3, 1, 7, 1991, 1992);
+EXEC INSERT_PARTIDO ('27/10/1991', 0, 0, 'Valladolid', 2, 1, 'Mallorca', 2, 0, 7, 1991, 1992);
+
+COMMIT;
+-- Jornada 8
+EXEC INSERT_PARTIDO ('02/11/1991', 2, 0, 'Atlético de Madrid', 1, 0, 'Osasuna', 6, 0, 8, 1991, 1992);
+EXEC INSERT_PARTIDO ('02/11/1991', 0, 0, 'Deportivo de La Coruña', 0, 3, 'Real Madrid', 1, 0, 8, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/11/1991', 3, 1, 'Albacete', 0, 2, 'Sporting de Gijón', 2, 0, 8, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/11/1991', 2, 0, 'Español', 0, 2, 'Valladolid', 2, 0, 8, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/11/1991', 4, 1, 'Logroñés', 2, 2, 'Barcelona', 1, 0, 8, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/11/1991', 3, 1, 'Mallorca', 1, 2, 'Athletic Club', 3, 1, 8, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/11/1991', 1, 0, 'Real Sociedad', 1, 0, 'Cádiz', 1, 0, 8, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/11/1991', 2, 0, 'Real Burgos', 1, 0, 'Sevilla', 4, 0, 8, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/11/1991', 1, 1, 'Oviedo', 2, 2, 'Valencia', 0, 1, 8, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/11/1991', 4, 0, 'Zaragoza', 3, 0, 'Tenerife', 3, 0, 8, 1991, 1992);
+
+COMMIT;
+-- Jornada 9
+EXEC INSERT_PARTIDO ('09/11/1991', 1, 0, 'Valencia', 2, 0, 'Atlético de Madrid', 3, 1, 9, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/11/1991', 0, 0, 'Athletic Club', 0, 2, 'Español', 1, 0, 9, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/11/1991', 1, 0, 'Barcelona', 2, 0, 'Osasuna', 1, 1, 9, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/11/1991', 1, 0, 'Cádiz', 0, 0, 'Zaragoza', 3, 0, 9, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/11/1991', 0, 0, 'Sporting de Gijón', 0, 0, 'Real Burgos', 1, 0, 9, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/11/1991', 2, 0, 'Logroñés', 2, 1, 'Deportivo de La Coruña', 0, 0, 9, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/11/1991', 1, 0, 'Real Madrid', 2, 1, 'Albacete', 2, 0, 9, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/11/1991', 4, 0, 'Sevilla', 2, 0, 'Mallorca', 3, 0, 9, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/11/1991', 0, 0, 'Tenerife', 1, 0, 'Oviedo', 1, 0, 9, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/11/1991', 1, 0, 'Valladolid', 2, 2, 'Real Sociedad', 1, 0, 9, 1991, 1992);
+
+COMMIT;
+-- Jornada 10
+EXEC INSERT_PARTIDO ('16/11/1991', 3, 0, 'Real Sociedad', 2, 0, 'Athletic Club', 5, 0, 10, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/11/1991', 2, 0, 'Albacete', 2, 0, 'Logroñés', 3, 1, 10, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/11/1991', 2, 0, 'Atlético de Madrid', 1, 0, 'Tenerife', 5, 1, 10, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/11/1991', 1, 0, 'Deportivo de La Coruña', 0, 4, 'Barcelona', 0, 0, 10, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/11/1991', 3, 0, 'Español', 1, 1, 'Sevilla', 3, 0, 10, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/11/1991', 1, 0, 'Mallorca', 0, 1, 'Sporting de Gijón', 2, 0, 10, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/11/1991', 2, 0, 'Osasuna', 0, 1, 'Valencia', 3, 0, 10, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/11/1991', 3, 0, 'Real Burgos', 0, 2, 'Real Madrid', 1, 0, 10, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/11/1991', 1, 0, 'Oviedo', 2, 1, 'Cádiz', 5, 0, 10, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/11/1991', 1, 1, 'Zaragoza', 2, 0, 'Valladolid', 0, 1, 10, 1991, 1992);
+
+COMMIT;
+-- Jornada 11
+EXEC INSERT_PARTIDO ('23/11/1991', 2, 0, 'Barcelona', 3, 1, 'Valencia', 4, 0, 11, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/11/1991', 2, 0, 'Athletic Club', 1, 0, 'Zaragoza', 2, 0, 11, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/11/1991', 2, 0, 'Cádiz', 1, 1, 'Atlético de Madrid', 2, 0, 11, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/11/1991', 1, 1, 'Deportivo de La Coruña', 2, 2, 'Albacete', 2, 0, 11, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/11/1991', 2, 0, 'Sporting de Gijón', 3, 0, 'Español', 3, 0, 11, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/11/1991', 0, 0, 'Logroñés', 1, 2, 'Real Burgos', 5, 0, 11, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/11/1991', 1, 0, 'Real Madrid', 2, 0, 'Mallorca', 3, 0, 11, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/11/1991', 0, 0, 'Sevilla', 2, 2, 'Real Sociedad', 1, 0, 11, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/11/1991', 1, 0, 'Tenerife', 0, 0, 'Osasuna', 2, 0, 11, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/11/1991', 2, 0, 'Valladolid', 1, 1, 'Oviedo', 1, 0, 11, 1991, 1992);
+
+COMMIT;
+-- Jornada 12
+EXEC INSERT_PARTIDO ('30/11/1991', 2, 0, 'Albacete', 1, 1, 'Barcelona', 3, 1, 12, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/12/1991', 2, 0, 'Atlético de Madrid', 5, 1, 'Valladolid', 5, 0, 12, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/12/1991', 3, 0, 'Español', 1, 5, 'Real Madrid', 1, 0, 12, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/12/1991', 2, 0, 'Osasuna', 1, 0, 'Cádiz', 2, 0, 12, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/12/1991', 1, 0, 'Real Sociedad', 0, 0, 'Sporting de Gijón', 4, 0, 12, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/12/1991', 2, 0, 'Real Burgos', 0, 0, 'Deportivo de La Coruña', 0, 0, 12, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/12/1991', 1, 1, 'Oviedo', 1, 1, 'Athletic Club', 4, 0, 12, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/12/1991', 1, 0, 'Valencia', 1, 0, 'Tenerife', 3, 0, 12, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/12/1991', 2, 0, 'Zaragoza', 1, 1, 'Sevilla', 1, 0, 12, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/02/1992', 0, 0, 'Mallorca', 2, 1, 'Logroñés', 3, 1, 12, 1991, 1992);
+
+COMMIT;
+-- Jornada 13
+EXEC INSERT_PARTIDO ('07/12/1991', 1, 0, 'Barcelona', 5, 3, 'Tenerife', 2, 0, 13, 1991, 1992);
+EXEC INSERT_PARTIDO ('07/12/1991', 1, 1, 'Real Madrid', 4, 1, 'Real Sociedad', 1, 0, 13, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/12/1991', 3, 0, 'Albacete', 1, 0, 'Real Burgos', 5, 0, 13, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/12/1991', 4, 0, 'Athletic Club', 3, 2, 'Atlético de Madrid', 2, 1, 13, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/12/1991', 2, 0, 'Cádiz', 2, 0, 'Valencia', 1, 0, 13, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/12/1991', 2, 0, 'Deportivo de La Coruña', 1, 0, 'Mallorca', 3, 1, 13, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/12/1991', 2, 0, 'Sporting de Gijón', 1, 2, 'Zaragoza', 3, 0, 13, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/12/1991', 4, 0, 'Logroñés', 2, 1, 'Español', 2, 1, 13, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/12/1991', 2, 0, 'Sevilla', 1, 1, 'Oviedo', 2, 0, 13, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/12/1991', 3, 0, 'Valladolid', 1, 1, 'Osasuna', 1, 0, 13, 1991, 1992);
+
+COMMIT;
+-- Jornada 14
+EXEC INSERT_PARTIDO ('14/12/1991', 1, 0, 'Atlético de Madrid', 0, 3, 'Sevilla', 4, 1, 14, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/12/1991', 1, 0, 'Español', 0, 3, 'Deportivo de La Coruña', 0, 0, 14, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/12/1991', 2, 0, 'Mallorca', 0, 1, 'Albacete', 1, 0, 14, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/12/1991', 3, 0, 'Osasuna', 1, 1, 'Athletic Club', 1, 1, 14, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/12/1991', 0, 0, 'Real Sociedad', 4, 0, 'Logroñés', 2, 0, 14, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/12/1991', 1, 0, 'Real Burgos', 2, 2, 'Barcelona', 0, 1, 14, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/12/1991', 4, 0, 'Oviedo', 1, 0, 'Sporting de Gijón', 2, 0, 14, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/12/1991', 2, 1, 'Tenerife', 3, 1, 'Cádiz', 3, 1, 14, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/12/1991', 1, 0, 'Valencia', 3, 1, 'Valladolid', 4, 1, 14, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/12/1991', 3, 0, 'Zaragoza', 1, 1, 'Real Madrid', 1, 0, 14, 1991, 1992);
+
+COMMIT;
+-- Jornada 15
+EXEC INSERT_PARTIDO ('21/12/1991', 4, 1, 'Athletic Club', 2, 3, 'Valencia', 3, 0, 15, 1991, 1992);
+EXEC INSERT_PARTIDO ('21/12/1991', 3, 0, 'Barcelona', 4, 1, 'Cádiz', 1, 0, 15, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/12/1991', 1, 0, 'Albacete', 3, 2, 'Español', 3, 0, 15, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/12/1991', 0, 0, 'Deportivo de La Coruña', 0, 0, 'Real Sociedad', 0, 0, 15, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/12/1991', 4, 0, 'Sporting de Gijón', 0, 1, 'Atlético de Madrid', 5, 1, 15, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/12/1991', 2, 0, 'Logroñés', 0, 2, 'Zaragoza', 3, 0, 15, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/12/1991', 4, 0, 'Real Burgos', 0, 0, 'Mallorca', 2, 0, 15, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/12/1991', 1, 0, 'Real Madrid', 0, 0, 'Oviedo', 1, 0, 15, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/12/1991', 1, 0, 'Sevilla', 1, 0, 'Osasuna', 3, 0, 15, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/12/1991', 4, 0, 'Valladolid', 2, 2, 'Tenerife', 5, 1, 15, 1991, 1992);
+
+COMMIT;
+-- Jornada 16
+EXEC INSERT_PARTIDO ('04/01/1992', 0, 0, 'Atlético de Madrid', 2, 0, 'Real Madrid', 1, 0, 16, 1991, 1992);
+EXEC INSERT_PARTIDO ('04/01/1992', 3, 0, 'Tenerife', 4, 1, 'Athletic Club', 3, 2, 16, 1991, 1992);
+EXEC INSERT_PARTIDO ('05/01/1992', 2, 0, 'Cádiz', 0, 0, 'Valladolid', 4, 1, 16, 1991, 1992);
+EXEC INSERT_PARTIDO ('05/01/1992', 1, 0, 'Español', 0, 0, 'Real Burgos', 4, 0, 16, 1991, 1992);
+EXEC INSERT_PARTIDO ('05/01/1992', 0, 0, 'Mallorca', 1, 2, 'Barcelona', 1, 0, 16, 1991, 1992);
+EXEC INSERT_PARTIDO ('05/01/1992', 2, 0, 'Osasuna', 0, 2, 'Sporting de Gijón', 3, 0, 16, 1991, 1992);
+EXEC INSERT_PARTIDO ('05/01/1992', 3, 0, 'Real Sociedad', 0, 1, 'Albacete', 0, 0, 16, 1991, 1992);
+EXEC INSERT_PARTIDO ('05/01/1992', 3, 1, 'Oviedo', 2, 3, 'Logroñés', 2, 0, 16, 1991, 1992);
+EXEC INSERT_PARTIDO ('05/01/1992', 1, 0, 'Valencia', 3, 2, 'Sevilla', 1, 0, 16, 1991, 1992);
+EXEC INSERT_PARTIDO ('05/01/1992', 0, 0, 'Zaragoza', 1, 0, 'Deportivo de La Coruña', 0, 0, 16, 1991, 1992);
+
+COMMIT;
+-- Jornada 17
+EXEC INSERT_PARTIDO ('11/01/1992', 0, 0, 'Logroñés', 1, 0, 'Atlético de Madrid', 3, 1, 17, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/01/1992', 1, 0, 'Albacete', 1, 1, 'Zaragoza', 3, 0, 17, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/01/1992', 0, 0, 'Athletic Club', 3, 1, 'Cádiz', 0, 0, 17, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/01/1992', 1, 0, 'Barcelona', 2, 1, 'Valladolid', 3, 3, 17, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/01/1992', 1, 0, 'Deportivo de La Coruña', 0, 0, 'Oviedo', 1, 0, 17, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/01/1992', 1, 0, 'Sporting de Gijón', 0, 3, 'Valencia', 2, 0, 17, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/01/1992', 1, 0, 'Mallorca', 1, 0, 'Español', 4, 0, 17, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/01/1992', 2, 0, 'Real Burgos', 0, 1, 'Real Sociedad', 1, 0, 17, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/01/1992', 0, 0, 'Real Madrid', 5, 2, 'Osasuna', 1, 0, 17, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/01/1992', 3, 0, 'Sevilla', 4, 1, 'Tenerife', 0, 0, 17, 1991, 1992);
+
+COMMIT;
+-- Jornada 18
+EXEC INSERT_PARTIDO ('18/01/1992', 4, 0, 'Valencia', 2, 1, 'Real Madrid', 5, 1, 18, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/01/1992', 3, 0, 'Atlético de Madrid', 1, 2, 'Deportivo de La Coruña', 2, 1, 18, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/01/1992', 1, 0, 'Barcelona', 4, 3, 'Español', 4, 0, 18, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/01/1992', 4, 0, 'Cádiz', 1, 1, 'Sevilla', 3, 2, 18, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/01/1992', 0, 0, 'Osasuna', 3, 0, 'Logroñés', 3, 1, 18, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/01/1992', 1, 0, 'Real Sociedad', 1, 0, 'Mallorca', 1, 0, 18, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/01/1992', 4, 0, 'Oviedo', 0, 1, 'Albacete', 2, 0, 18, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/01/1992', 2, 0, 'Tenerife', 0, 0, 'Sporting de Gijón', 1, 1, 18, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/01/1992', 5, 1, 'Valladolid', 1, 1, 'Athletic Club', 2, 0, 18, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/01/1992', 1, 0, 'Zaragoza', 1, 0, 'Real Burgos', 2, 0, 18, 1991, 1992);
+
+COMMIT;
+-- Jornada 19
+EXEC INSERT_PARTIDO ('25/01/1992', 1, 0, 'Athletic Club', 0, 2, 'Barcelona', 1, 0, 19, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/01/1992', 1, 0, 'Albacete', 3, 1, 'Atlético de Madrid', 2, 0, 19, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/01/1992', 0, 0, 'Deportivo de La Coruña', 0, 0, 'Osasuna', 3, 1, 19, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/01/1992', 2, 1, 'Español', 2, 0, 'Real Sociedad', 1, 0, 19, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/01/1992', 2, 1, 'Sporting de Gijón', 2, 1, 'Cádiz', 6, 0, 19, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/01/1992', 1, 0, 'Logroñés', 0, 0, 'Valencia', 1, 0, 19, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/01/1992', 2, 0, 'Mallorca', 0, 1, 'Zaragoza', 2, 0, 19, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/01/1992', 0, 0, 'Real Burgos', 1, 0, 'Oviedo', 0, 0, 19, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/01/1992', 1, 1, 'Real Madrid', 2, 1, 'Tenerife', 3, 0, 19, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/01/1992', 2, 0, 'Sevilla', 2, 1, 'Valladolid', 2, 0, 19, 1991, 1992);
+
+COMMIT;
+-- Jornada 20
+EXEC INSERT_PARTIDO ('01/02/1992', 3, 0, 'Real Burgos', 1, 1, 'Atlético de Madrid', 2, 0, 20, 1991, 1992);
+EXEC INSERT_PARTIDO ('02/02/1992', 1, 1, 'Albacete', 1, 0, 'Osasuna', 2, 0, 20, 1991, 1992);
+EXEC INSERT_PARTIDO ('02/02/1992', 0, 0, 'Deportivo de La Coruña', 0, 1, 'Valencia', 2, 0, 20, 1991, 1992);
+EXEC INSERT_PARTIDO ('02/02/1992', 3, 0, 'Español', 1, 0, 'Zaragoza', 5, 0, 20, 1991, 1992);
+EXEC INSERT_PARTIDO ('02/02/1992', 0, 0, 'Sporting de Gijón', 1, 0, 'Valladolid', 0, 0, 20, 1991, 1992);
+EXEC INSERT_PARTIDO ('02/02/1992', 4, 0, 'Logroñés', 2, 0, 'Tenerife', 1, 1, 20, 1991, 1992);
+EXEC INSERT_PARTIDO ('02/02/1992', 2, 1, 'Mallorca', 2, 1, 'Oviedo', 2, 0, 20, 1991, 1992);
+EXEC INSERT_PARTIDO ('02/02/1992', 1, 0, 'Real Sociedad', 2, 1, 'Barcelona', 2, 0, 20, 1991, 1992);
+EXEC INSERT_PARTIDO ('02/02/1992', 1, 0, 'Real Madrid', 1, 1, 'Cádiz', 1, 0, 20, 1991, 1992);
+EXEC INSERT_PARTIDO ('02/02/1992', 1, 0, 'Sevilla', 1, 2, 'Athletic Club', 3, 0, 20, 1991, 1992);
+
+COMMIT;
+-- Jornada 21
+EXEC INSERT_PARTIDO ('08/02/1992', 3, 0, 'Barcelona', 1, 0, 'Sevilla', 4, 0, 21, 1991, 1992);
+EXEC INSERT_PARTIDO ('09/02/1992', 2, 0, 'Athletic Club', 2, 0, 'Sporting de Gijón', 1, 0, 21, 1991, 1992);
+EXEC INSERT_PARTIDO ('09/02/1992', 1, 0, 'Atlético de Madrid', 3, 0, 'Mallorca', 1, 0, 21, 1991, 1992);
+EXEC INSERT_PARTIDO ('09/02/1992', 3, 1, 'Cádiz', 2, 0, 'Logroñés', 2, 0, 21, 1991, 1992);
+EXEC INSERT_PARTIDO ('09/02/1992', 1, 0, 'Osasuna', 1, 1, 'Real Burgos', 2, 1, 21, 1991, 1992);
+EXEC INSERT_PARTIDO ('09/02/1992', 2, 0, 'Oviedo', 1, 0, 'Español', 3, 0, 21, 1991, 1992);
+EXEC INSERT_PARTIDO ('09/02/1992', 3, 0, 'Tenerife', 1, 0, 'Deportivo de La Coruña', 2, 0, 21, 1991, 1992);
+EXEC INSERT_PARTIDO ('09/02/1992', 3, 0, 'Valencia', 1, 1, 'Albacete', 4, 1, 21, 1991, 1992);
+EXEC INSERT_PARTIDO ('09/02/1992', 2, 0, 'Valladolid', 2, 1, 'Real Madrid', 3, 0, 21, 1991, 1992);
+EXEC INSERT_PARTIDO ('09/02/1992', 4, 0, 'Zaragoza', 1, 3, 'Real Sociedad', 4, 0, 21, 1991, 1992);
+
+COMMIT;
+-- Jornada 22
+EXEC INSERT_PARTIDO ('15/02/1992', 2, 1, 'Zaragoza', 0, 4, 'Barcelona', 3, 0, 22, 1991, 1992);
+EXEC INSERT_PARTIDO ('16/02/1992', 5, 0, 'Albacete', 1, 1, 'Tenerife', 4, 1, 22, 1991, 1992);
+EXEC INSERT_PARTIDO ('16/02/1992', 2, 0, 'Deportivo de La Coruña', 1, 1, 'Cádiz', 4, 0, 22, 1991, 1992);
+EXEC INSERT_PARTIDO ('16/02/1992', 4, 0, 'Español', 1, 2, 'Atlético de Madrid', 3, 0, 22, 1991, 1992);
+EXEC INSERT_PARTIDO ('16/02/1992', 4, 0, 'Sporting de Gijón', 2, 1, 'Sevilla', 5, 1, 22, 1991, 1992);
+EXEC INSERT_PARTIDO ('16/02/1992', 3, 0, 'Logroñés', 0, 0, 'Valladolid', 5, 0, 22, 1991, 1992);
+EXEC INSERT_PARTIDO ('16/02/1992', 2, 1, 'Mallorca', 1, 1, 'Osasuna', 4, 0, 22, 1991, 1992);
+EXEC INSERT_PARTIDO ('16/02/1992', 0, 0, 'Real Sociedad', 2, 1, 'Oviedo', 4, 0, 22, 1991, 1992);
+EXEC INSERT_PARTIDO ('16/02/1992', 2, 0, 'Real Burgos', 2, 1, 'Valencia', 1, 0, 22, 1991, 1992);
+EXEC INSERT_PARTIDO ('16/02/1992', 2, 0, 'Real Madrid', 5, 0, 'Athletic Club', 4, 0, 22, 1991, 1992);
+
+COMMIT;
+-- Jornada 23
+EXEC INSERT_PARTIDO ('22/02/1992', 1, 0, 'Sevilla', 1, 0, 'Real Madrid', 4, 0, 23, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/02/1992', 1, 0, 'Valencia', 1, 1, 'Mallorca', 2, 1, 23, 1991, 1992);
+EXEC INSERT_PARTIDO ('23/02/1992', 2, 0, 'Athletic Club', 1, 2, 'Logroñés', 0, 0, 23, 1991, 1992);
+EXEC INSERT_PARTIDO ('23/02/1992', 2, 0, 'Atlético de Madrid', 5, 1, 'Real Sociedad', 3, 0, 23, 1991, 1992);
+EXEC INSERT_PARTIDO ('23/02/1992', 2, 0, 'Barcelona', 1, 1, 'Sporting de Gijón', 1, 0, 23, 1991, 1992);
+EXEC INSERT_PARTIDO ('23/02/1992', 2, 0, 'Cádiz', 1, 1, 'Albacete', 2, 0, 23, 1991, 1992);
+EXEC INSERT_PARTIDO ('23/02/1992', 3, 0, 'Osasuna', 0, 1, 'Español', 3, 1, 23, 1991, 1992);
+EXEC INSERT_PARTIDO ('23/02/1992', 3, 1, 'Oviedo', 2, 1, 'Zaragoza', 0, 0, 23, 1991, 1992);
+EXEC INSERT_PARTIDO ('23/02/1992', 2, 0, 'Tenerife', 4, 1, 'Real Burgos', 3, 0, 23, 1991, 1992);
+EXEC INSERT_PARTIDO ('23/02/1992', 0, 0, 'Valladolid', 2, 0, 'Deportivo de La Coruña', 2, 0, 23, 1991, 1992);
+
+COMMIT;
+-- Jornada 24
+EXEC INSERT_PARTIDO ('29/02/1992', 2, 0, 'Español', 0, 0, 'Valencia', 4, 0, 24, 1991, 1992);
+EXEC INSERT_PARTIDO ('29/02/1992', 2, 0, 'Real Madrid', 1, 0, 'Sporting de Gijón', 3, 0, 24, 1991, 1992);
+EXEC INSERT_PARTIDO ('29/02/1992', 1, 0, 'Oviedo', 0, 2, 'Barcelona', 1, 0, 24, 1991, 1992);
+EXEC INSERT_PARTIDO ('29/02/1992', 6, 1, 'Zaragoza', 1, 0, 'Atlético de Madrid', 6, 2, 24, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/03/1992', 0, 0, 'Albacete', 3, 1, 'Valladolid', 0, 0, 24, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/03/1992', 0, 0, 'Deportivo de La Coruña', 0, 0, 'Athletic Club', 1, 0, 24, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/03/1992', 3, 0, 'Logroñés', 1, 0, 'Sevilla', 2, 0, 24, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/03/1992', 3, 0, 'Mallorca', 0, 2, 'Tenerife', 1, 0, 24, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/03/1992', 4, 0, 'Real Sociedad', 0, 0, 'Osasuna', 2, 0, 24, 1991, 1992);
+EXEC INSERT_PARTIDO ('01/03/1992', 3, 0, 'Real Burgos', 1, 1, 'Cádiz', 2, 0, 24, 1991, 1992);
+
+COMMIT;
+-- Jornada 25
+EXEC INSERT_PARTIDO ('07/03/1992', 1, 0, 'Barcelona', 1, 1, 'Real Madrid', 0, 0, 25, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/03/1992', 2, 0, 'Athletic Club', 1, 0, 'Albacete', 2, 0, 25, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/03/1992', 0, 0, 'Atlético de Madrid', 3, 1, 'Oviedo', 0, 0, 25, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/03/1992', 3, 0, 'Cádiz', 1, 3, 'Mallorca', 3, 0, 25, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/03/1992', 0, 0, 'Sporting de Gijón', 1, 1, 'Logroñés', 2, 0, 25, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/03/1992', 1, 0, 'Osasuna', 1, 0, 'Zaragoza', 2, 0, 25, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/03/1992', 1, 0, 'Sevilla', 0, 0, 'Deportivo de La Coruña', 1, 0, 25, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/03/1992', 3, 1, 'Tenerife', 0, 1, 'Español', 2, 0, 25, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/03/1992', 1, 0, 'Valencia', 1, 2, 'Real Sociedad', 0, 0, 25, 1991, 1992);
+EXEC INSERT_PARTIDO ('08/03/1992', 6, 0, 'Valladolid', 2, 0, 'Real Burgos', 4, 0, 25, 1991, 1992);
+
+COMMIT;
+-- Jornada 26
+EXEC INSERT_PARTIDO ('14/03/1992', 4, 0, 'Atlético de Madrid', 2, 2, 'Barcelona', 2, 1, 26, 1991, 1992);
+EXEC INSERT_PARTIDO ('14/03/1992', 1, 0, 'Logroñés', 1, 0, 'Real Madrid', 0, 0, 26, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/03/1992', 0, 0, 'Albacete', 0, 0, 'Sevilla', 1, 0, 26, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/03/1992', 2, 0, 'Deportivo de La Coruña', 5, 2, 'Sporting de Gijón', 1, 1, 26, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/03/1992', 2, 0, 'Español', 3, 1, 'Cádiz', 3, 1, 26, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/03/1992', 2, 0, 'Mallorca', 1, 1, 'Valladolid', 3, 1, 26, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/03/1992', 1, 0, 'Real Sociedad', 1, 0, 'Tenerife', 2, 0, 26, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/03/1992', 2, 0, 'Real Burgos', 2, 0, 'Athletic Club', 4, 0, 26, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/03/1992', 0, 0, 'Oviedo', 3, 1, 'Osasuna', 3, 0, 26, 1991, 1992);
+EXEC INSERT_PARTIDO ('15/03/1992', 2, 1, 'Zaragoza', 0, 3, 'Valencia', 1, 0, 26, 1991, 1992);
+
+COMMIT;
+-- Jornada 27
+EXEC INSERT_PARTIDO ('21/03/1992', 2, 0, 'Valladolid', 0, 0, 'Español', 4, 0, 27, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/03/1992', 1, 0, 'Athletic Club', 2, 0, 'Mallorca', 1, 0, 27, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/03/1992', 1, 0, 'Barcelona', 1, 0, 'Logroñés', 5, 0, 27, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/03/1992', 2, 0, 'Cádiz', 0, 0, 'Real Sociedad', 3, 0, 27, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/03/1992', 0, 0, 'Sporting de Gijón', 0, 2, 'Albacete', 1, 0, 27, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/03/1992', 1, 0, 'Osasuna', 1, 1, 'Atlético de Madrid', 3, 0, 27, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/03/1992', 1, 0, 'Real Madrid', 1, 0, 'Deportivo de La Coruña', 3, 0, 27, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/03/1992', 2, 1, 'Sevilla', 3, 2, 'Real Burgos', 3, 0, 27, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/03/1992', 4, 0, 'Tenerife', 1, 0, 'Zaragoza', 3, 1, 27, 1991, 1992);
+EXEC INSERT_PARTIDO ('22/03/1992', 1, 0, 'Valencia', 6, 3, 'Oviedo', 1, 0, 27, 1991, 1992);
+
+COMMIT;
+-- Jornada 28
+EXEC INSERT_PARTIDO ('28/03/1992', 2, 0, 'Albacete', 1, 3, 'Real Madrid', 2, 1, 28, 1991, 1992);
+EXEC INSERT_PARTIDO ('28/03/1992', 3, 0, 'Mallorca', 1, 0, 'Sevilla', 3, 0, 28, 1991, 1992);
+EXEC INSERT_PARTIDO ('28/03/1992', 1, 0, 'Osasuna', 0, 0, 'Barcelona', 0, 0, 28, 1991, 1992);
+EXEC INSERT_PARTIDO ('29/03/1992', 1, 0, 'Atlético de Madrid', 1, 0, 'Valencia', 2, 0, 28, 1991, 1992);
+EXEC INSERT_PARTIDO ('29/03/1992', 0, 0, 'Deportivo de La Coruña', 2, 2, 'Logroñés', 3, 0, 28, 1991, 1992);
+EXEC INSERT_PARTIDO ('29/03/1992', 2, 1, 'Español', 2, 0, 'Athletic Club', 2, 0, 28, 1991, 1992);
+EXEC INSERT_PARTIDO ('29/03/1992', 1, 0, 'Real Sociedad', 1, 0, 'Valladolid', 0, 0, 28, 1991, 1992);
+EXEC INSERT_PARTIDO ('29/03/1992', 3, 0, 'Real Burgos', 0, 1, 'Sporting de Gijón', 1, 0, 28, 1991, 1992);
+EXEC INSERT_PARTIDO ('29/03/1992', 6, 0, 'Oviedo', 2, 0, 'Tenerife', 1, 0, 28, 1991, 1992);
+EXEC INSERT_PARTIDO ('29/03/1992', 1, 0, 'Zaragoza', 3, 0, 'Cádiz', 4, 1, 28, 1991, 1992);
+
+COMMIT;
+-- Jornada 29
+EXEC INSERT_PARTIDO ('04/04/1992', 1, 0, 'Athletic Club', 2, 1, 'Real Sociedad', 3, 0, 29, 1991, 1992);
+EXEC INSERT_PARTIDO ('04/04/1992', 4, 1, 'Valencia', 1, 2, 'Osasuna', 4, 0, 29, 1991, 1992);
+EXEC INSERT_PARTIDO ('05/04/1992', 2, 0, 'Barcelona', 4, 1, 'Deportivo de La Coruña', 2, 0, 29, 1991, 1992);
+EXEC INSERT_PARTIDO ('05/04/1992', 1, 0, 'Cádiz', 3, 1, 'Oviedo', 3, 0, 29, 1991, 1992);
+EXEC INSERT_PARTIDO ('05/04/1992', 2, 0, 'Sporting de Gijón', 2, 0, 'Mallorca', 1, 0, 29, 1991, 1992);
+EXEC INSERT_PARTIDO ('05/04/1992', 2, 0, 'Logroñés', 1, 1, 'Albacete', 3, 1, 29, 1991, 1992);
+EXEC INSERT_PARTIDO ('05/04/1992', 1, 0, 'Real Madrid', 2, 0, 'Real Burgos', 1, 0, 29, 1991, 1992);
+EXEC INSERT_PARTIDO ('05/04/1992', 4, 0, 'Sevilla', 2, 1, 'Español', 0, 0, 29, 1991, 1992);
+EXEC INSERT_PARTIDO ('05/04/1992', 2, 0, 'Tenerife', 0, 1, 'Atlético de Madrid', 3, 0, 29, 1991, 1992);
+EXEC INSERT_PARTIDO ('05/04/1992', 0, 0, 'Valladolid', 0, 0, 'Zaragoza', 2, 1, 29, 1991, 1992);
+
+COMMIT;
+-- Jornada 30
+EXEC INSERT_PARTIDO ('11/04/1992', 0, 0, 'Mallorca', 0, 0, 'Real Madrid', 1, 0, 30, 1991, 1992);
+EXEC INSERT_PARTIDO ('11/04/1992', 1, 1, 'Real Sociedad', 2, 1, 'Sevilla', 3, 1, 30, 1991, 1992);
+EXEC INSERT_PARTIDO ('11/04/1992', 5, 1, 'Valencia', 1, 0, 'Barcelona', 2, 1, 30, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/04/1992', 2, 0, 'Albacete', 3, 0, 'Deportivo de La Coruña', 2, 0, 30, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/04/1992', 1, 0, 'Atlético de Madrid', 5, 1, 'Cádiz', 2, 0, 30, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/04/1992', 2, 1, 'Español', 2, 0, 'Sporting de Gijón', 3, 1, 30, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/04/1992', 3, 0, 'Osasuna', 2, 0, 'Tenerife', 4, 0, 30, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/04/1992', 4, 0, 'Real Burgos', 2, 0, 'Logroñés', 2, 1, 30, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/04/1992', 1, 0, 'Oviedo', 2, 1, 'Valladolid', 1, 0, 30, 1991, 1992);
+EXEC INSERT_PARTIDO ('12/04/1992', 2, 0, 'Zaragoza', 1, 0, 'Athletic Club', 4, 0, 30, 1991, 1992);
+
+COMMIT;
+-- Jornada 31
+EXEC INSERT_PARTIDO ('18/04/1992', 1, 0, 'Barcelona', 7, 1, 'Albacete', 0, 0, 31, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/04/1992', 4, 0, 'Athletic Club', 0, 0, 'Oviedo', 2, 0, 31, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/04/1992', 4, 0, 'Cádiz', 2, 2, 'Osasuna', 1, 0, 31, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/04/1992', 3, 0, 'Deportivo de La Coruña', 2, 2, 'Real Burgos', 5, 0, 31, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/04/1992', 3, 1, 'Sporting de Gijón', 0, 1, 'Real Sociedad', 2, 0, 31, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/04/1992', 2, 0, 'Logroñés', 2, 1, 'Mallorca', 1, 0, 31, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/04/1992', 3, 0, 'Real Madrid', 7, 0, 'Español', 3, 0, 31, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/04/1992', 2, 0, 'Sevilla', 3, 0, 'Zaragoza', 2, 1, 31, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/04/1992', 1, 0, 'Tenerife', 2, 1, 'Valencia', 2, 0, 31, 1991, 1992);
+EXEC INSERT_PARTIDO ('19/04/1992', 4, 0, 'Valladolid', 0, 1, 'Atlético de Madrid', 0, 0, 31, 1991, 1992);
+
+COMMIT;
+-- Jornada 32
+EXEC INSERT_PARTIDO ('25/04/1992', 4, 0, 'Tenerife', 2, 1, 'Barcelona', 4, 0, 32, 1991, 1992);
+EXEC INSERT_PARTIDO ('25/04/1992', 1, 0, 'Valencia', 4, 0, 'Cádiz', 3, 0, 32, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/04/1992', 2, 1, 'Atlético de Madrid', 3, 1, 'Athletic Club', 6, 0, 32, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/04/1992', 0, 0, 'Español', 3, 0, 'Logroñés', 0, 0, 32, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/04/1992', 2, 0, 'Mallorca', 4, 2, 'Deportivo de La Coruña', 2, 0, 32, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/04/1992', 3, 0, 'Osasuna', 1, 1, 'Valladolid', 3, 1, 32, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/04/1992', 1, 0, 'Real Sociedad', 2, 2, 'Real Madrid', 2, 0, 32, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/04/1992', 3, 0, 'Real Burgos', 3, 1, 'Albacete', 4, 0, 32, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/04/1992', 2, 1, 'Oviedo', 1, 0, 'Sevilla', 4, 0, 32, 1991, 1992);
+EXEC INSERT_PARTIDO ('26/04/1992', 4, 0, 'Zaragoza', 3, 1, 'Sporting de Gijón', 3, 0, 32, 1991, 1992);
+
+COMMIT;
+-- Jornada 33
+EXEC INSERT_PARTIDO ('02/05/1992', 2, 1, 'Sevilla', 0, 1, 'Atlético de Madrid', 2, 0, 33, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/05/1992', 3, 0, 'Albacete', 1, 0, 'Mallorca', 1, 0, 33, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/05/1992', 1, 0, 'Athletic Club', 2, 1, 'Osasuna', 1, 0, 33, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/05/1992', 3, 0, 'Barcelona', 1, 1, 'Real Burgos', 3, 1, 33, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/05/1992', 3, 0, 'Cádiz', 0, 0, 'Tenerife', 2, 1, 33, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/05/1992', 4, 0, 'Deportivo de La Coruña', 2, 2, 'Español', 2, 0, 33, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/05/1992', 3, 1, 'Sporting de Gijón', 1, 0, 'Oviedo', 1, 0, 33, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/05/1992', 1, 0, 'Logroñés', 1, 1, 'Real Sociedad', 1, 0, 33, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/05/1992', 0, 0, 'Real Madrid', 2, 0, 'Zaragoza', 1, 1, 33, 1991, 1992);
+EXEC INSERT_PARTIDO ('03/05/1992', 4, 2, 'Valladolid', 1, 4, 'Valencia', 2, 1, 33, 1991, 1992);
+
+COMMIT;
+-- Jornada 34
+EXEC INSERT_PARTIDO ('09/05/1992', 0, 0, 'Oviedo', 1, 0, 'Real Madrid', 1, 0, 34, 1991, 1992);
+EXEC INSERT_PARTIDO ('09/05/1992', 4, 0, 'Valencia', 3, 1, 'Athletic Club', 4, 0, 34, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/05/1992', 4, 1, 'Atlético de Madrid', 2, 1, 'Sporting de Gijón', 2, 1, 34, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/05/1992', 1, 0, 'Cádiz', 0, 2, 'Barcelona', 0, 0, 34, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/05/1992', 1, 0, 'Español', 2, 0, 'Albacete', 2, 0, 34, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/05/1992', 1, 1, 'Mallorca', 2, 2, 'Real Burgos', 6, 1, 34, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/05/1992', 1, 0, 'Osasuna', 1, 0, 'Sevilla', 3, 0, 34, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/05/1992', 2, 0, 'Real Sociedad', 1, 1, 'Deportivo de La Coruña', 2, 0, 34, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/05/1992', 1, 0, 'Tenerife', 0, 0, 'Valladolid', 3, 1, 34, 1991, 1992);
+EXEC INSERT_PARTIDO ('10/05/1992', 2, 0, 'Zaragoza', 3, 2, 'Logroñés', 1, 0, 34, 1991, 1992);
+
+COMMIT;
+-- Jornada 35
+EXEC INSERT_PARTIDO ('16/05/1992', 3, 0, 'Barcelona', 3, 0, 'Mallorca', 2, 0, 35, 1991, 1992);
+EXEC INSERT_PARTIDO ('16/05/1992', 3, 0, 'Real Madrid', 3, 2, 'Atlético de Madrid', 3, 0, 35, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/05/1992', 0, 1, 'Albacete', 0, 1, 'Real Sociedad', 2, 0, 35, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/05/1992', 3, 0, 'Athletic Club', 3, 1, 'Tenerife', 1, 0, 35, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/05/1992', 2, 0, 'Deportivo de La Coruña', 3, 0, 'Zaragoza', 5, 2, 35, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/05/1992', 3, 1, 'Sporting de Gijón', 1, 0, 'Osasuna', 3, 0, 35, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/05/1992', 3, 0, 'Logroñés', 2, 0, 'Oviedo', 2, 0, 35, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/05/1992', 3, 0, 'Real Burgos', 2, 1, 'Español', 2, 1, 35, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/05/1992', 0, 0, 'Sevilla', 2, 3, 'Valencia', 0, 0, 35, 1991, 1992);
+EXEC INSERT_PARTIDO ('17/05/1992', 4, 0, 'Valladolid', 2, 2, 'Cádiz', 4, 1, 35, 1991, 1992);
+
+COMMIT;
+-- Jornada 36
+EXEC INSERT_PARTIDO ('23/05/1992', 2, 0, 'Osasuna', 1, 1, 'Real Madrid', 1, 1, 36, 1991, 1992);
+EXEC INSERT_PARTIDO ('23/05/1992', 1, 0, 'Valencia', 3, 1, 'Sporting de Gijón', 0, 0, 36, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/05/1992', 1, 0, 'Atlético de Madrid', 2, 1, 'Logroñés', 4, 0, 36, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/05/1992', 1, 0, 'Cádiz', 1, 0, 'Athletic Club', 1, 0, 36, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/05/1992', 0, 0, 'Español', 3, 2, 'Mallorca', 1, 0, 36, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/05/1992', 2, 0, 'Real Sociedad', 4, 0, 'Real Burgos', 5, 0, 36, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/05/1992', 1, 0, 'Oviedo', 2, 1, 'Deportivo de La Coruña', 1, 0, 36, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/05/1992', 3, 0, 'Tenerife', 4, 1, 'Sevilla', 4, 1, 36, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/05/1992', 6, 1, 'Valladolid', 0, 6, 'Barcelona', 1, 0, 36, 1991, 1992);
+EXEC INSERT_PARTIDO ('24/05/1992', 2, 1, 'Zaragoza', 1, 0, 'Albacete', 5, 0, 36, 1991, 1992);
+
+COMMIT;
+-- Jornada 37
+EXEC INSERT_PARTIDO ('30/05/1992', 2, 0, 'Logroñés', 0, 0, 'Osasuna', 2, 0, 37, 1991, 1992);
+EXEC INSERT_PARTIDO ('31/05/1992', 4, 0, 'Albacete', 2, 0, 'Oviedo', 5, 0, 37, 1991, 1992);
+EXEC INSERT_PARTIDO ('31/05/1992', 2, 0, 'Athletic Club', 2, 0, 'Valladolid', 1, 0, 37, 1991, 1992);
+EXEC INSERT_PARTIDO ('31/05/1992', 4, 0, 'Deportivo de La Coruña', 1, 1, 'Atlético de Madrid', 5, 1, 37, 1991, 1992);
+EXEC INSERT_PARTIDO ('31/05/1992', 4, 0, 'Español', 0, 4, 'Barcelona', 2, 1, 37, 1991, 1992);
+EXEC INSERT_PARTIDO ('31/05/1992', 2, 0, 'Sporting de Gijón', 1, 1, 'Tenerife', 3, 1, 37, 1991, 1992);
+EXEC INSERT_PARTIDO ('31/05/1992', 2, 0, 'Mallorca', 2, 1, 'Real Sociedad', 4, 0, 37, 1991, 1992);
+EXEC INSERT_PARTIDO ('31/05/1992', 4, 0, 'Real Burgos', 0, 1, 'Zaragoza', 3, 0, 37, 1991, 1992);
+EXEC INSERT_PARTIDO ('31/05/1992', 1, 0, 'Real Madrid', 2, 1, 'Valencia', 2, 0, 37, 1991, 1992);
+EXEC INSERT_PARTIDO ('31/05/1992', 2, 0, 'Sevilla', 0, 0, 'Cádiz', 2, 0, 37, 1991, 1992);
+
+COMMIT;
+-- Jornada 38
+EXEC INSERT_PARTIDO ('06/06/1992', 2, 0, 'Valencia', 1, 1, 'Logroñés', 3, 0, 38, 1991, 1992);
+EXEC INSERT_PARTIDO ('07/06/1992', 2, 1, 'Atlético de Madrid', 4, 1, 'Albacete', 2, 0, 38, 1991, 1992);
+EXEC INSERT_PARTIDO ('07/06/1992', 1, 0, 'Barcelona', 2, 0, 'Athletic Club', 5, 1, 38, 1991, 1992);
+EXEC INSERT_PARTIDO ('07/06/1992', 0, 0, 'Cádiz', 1, 1, 'Sporting de Gijón', 0, 0, 38, 1991, 1992);
+EXEC INSERT_PARTIDO ('07/06/1992', 2, 0, 'Osasuna', 0, 1, 'Deportivo de La Coruña', 1, 1, 38, 1991, 1992);
+EXEC INSERT_PARTIDO ('07/06/1992', 0, 0, 'Real Sociedad', 1, 1, 'Español', 1, 0, 38, 1991, 1992);
+EXEC INSERT_PARTIDO ('07/06/1992', 0, 0, 'Oviedo', 3, 1, 'Real Burgos', 4, 2, 38, 1991, 1992);
+EXEC INSERT_PARTIDO ('07/06/1992', 2, 1, 'Tenerife', 3, 2, 'Real Madrid', 5, 1, 38, 1991, 1992);
+EXEC INSERT_PARTIDO ('07/06/1992', 4, 0, 'Valladolid', 1, 0, 'Sevilla', 1, 0, 38, 1991, 1992);
+EXEC INSERT_PARTIDO ('07/06/1992', 1, 0, 'Zaragoza', 1, 2, 'Mallorca', 1, 0, 38, 1991, 1992);
+
+COMMIT;

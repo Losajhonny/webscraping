@@ -16,7 +16,7 @@ seasons = list()
 cont = 0
 for i in it:
     for a in i.find_all('a'):
-        if 0 < cont <= 40:
+        if 25 < cont <= 40:
             seasons.append(a)
         if cont > 40:
             break

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="840D0E36-8D13-0019-738A-538BCB3DC4CC">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:43:44 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="75A75835-018A-9E8A-3B1D-80748DF0A8D8" value="true"/>
+</engineerTo>
+<sourcePk>0B920743-6C33-32E5-E9ED-593D298BD646</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5A8D27DF-248F-F036-E841-8698F46E4C31</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>844B9BC6-40BA-1362-756D-424A6CEA583C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A8D27DF-248F-F036-E841-8698F46E4C31" name="PARTIDO">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:35:59 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="C572EFA0-BF18-3CA5-6A78-390E029DF672" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="2781EFC8-ACA7-682D-C3BC-88C51924DCB4">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:36:08 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="C572EFA0-BF18-3CA5-6A78-390E029DF672" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="6660A1AC-0905-5E6D-7FD4-5EF2A323B4EC">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:36:22 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="C572EFA0-BF18-3CA5-6A78-390E029DF672" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="62CC811B-BF07-4865-040B-AC2390CE13E6">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:39:34 UTC</createdTime>
+<generatorID>39E0AA17-E36A-C03C-F84A-8CD4596F12B3</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="C572EFA0-BF18-3CA5-6A78-390E029DF672" value="true"/>
+</engineerTo>
+<referedAttribute>EB1BFB0B-74F9-711B-566F-CB53B18C2A0D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="C38E722D-FE0E-498E-ECBE-D16A9309375C">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:56:53 UTC</createdTime>
+<generatorID>CEFB479D-4EB8-C4AF-A8CD-095633AB046E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="C572EFA0-BF18-3CA5-6A78-390E029DF672" value="true"/>
+</engineerTo>
+<referedAttribute>EA9BC325-1D44-8648-AB0C-9F2826FAB687</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="1E3FDE05-7394-19F2-2BC7-47AEAE969BA5">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:59:58 UTC</createdTime>
+<generatorID>4EC5D8D8-39D1-45E4-C3FC-64ABA3B83FB1</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="C572EFA0-BF18-3CA5-6A78-390E029DF672" value="true"/>
+</engineerTo>
+<referedAttribute>EA9BC325-1D44-8648-AB0C-9F2826FAB687</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B920743-6C33-32E5-E9ED-593D298BD646" name="PARTIDO PK">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:37:22 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="C572EFA0-BF18-3CA5-6A78-390E029DF672" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2781EFC8-ACA7-682D-C3BC-88C51924DCB4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

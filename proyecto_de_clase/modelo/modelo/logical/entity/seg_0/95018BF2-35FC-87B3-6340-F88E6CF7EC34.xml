@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95018BF2-35FC-87B3-6340-F88E6CF7EC34" name="TEMPORADA">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:33:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="C572EFA0-BF18-3CA5-6A78-390E029DF672" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="1BB525C1-2CA9-5F95-929C-C724C558EDF0">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:34:24 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="C572EFA0-BF18-3CA5-6A78-390E029DF672" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="year_ini" id="D7489ADE-5086-763A-A30B-E7BCC8F846C6">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:34:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="C572EFA0-BF18-3CA5-6A78-390E029DF672" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="year_fin" id="5230EA55-85D2-F3B9-2DEB-43BA230200D4">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:35:00 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="C572EFA0-BF18-3CA5-6A78-390E029DF672" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="123EFBBA-0E1B-3EC5-48F8-A76690C58C15" name="TEMPORADA PK">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-03 20:34:33 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="C572EFA0-BF18-3CA5-6A78-390E029DF672" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1BB525C1-2CA9-5F95-929C-C724C558EDF0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

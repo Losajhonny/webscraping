@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3088F16-5785-B476-C515-E71B67C0B14D" name="PARTIDO">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-04 00:48:14 UTC</createdTime>
+<generatorID>5A8D27DF-248F-F036-E841-8698F46E4C31</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F3CF3A29-37BF-3303-143C-90C06A1FA086">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-04 00:48:14 UTC</createdTime>
+<generatorID>2781EFC8-ACA7-682D-C3BC-88C51924DCB4</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="9E2D39B5-92CE-00ED-2883-1F6B16335679">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-04 00:48:14 UTC</createdTime>
+<generatorID>6660A1AC-0905-5E6D-7FD4-5EF2A323B4EC</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JORNADA_id" id="4A7D1A41-362A-AF9A-71F8-4E8F7C02D511">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-04 00:48:14 UTC</createdTime>
+<generatorID>62CC811B-BF07-4865-040B-AC2390CE13E6</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEE55143-B4FD-A053-5AF2-2148AD63D09F" referredColumn="B097A859-03A4-79E8-641A-553DCE28C0F4"/>
+</associations>
+</Column>
+<Column name="LOCAL" id="52DB122F-AEFD-C77D-4E6F-A6B421797B2C">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-04 00:48:14 UTC</createdTime>
+<generatorID>C38E722D-FE0E-498E-ECBE-D16A9309375C</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBC70B87-A83D-83F0-A22A-6B1DEF852704" referredColumn="E995657F-A208-82E5-7ED4-8A3DF80EDA86"/>
+</associations>
+</Column>
+<Column name="VISITA" id="3B167E33-5E5D-899C-4845-52AD76A84F45">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-04 00:48:14 UTC</createdTime>
+<generatorID>1E3FDE05-7394-19F2-2BC7-47AEAE969BA5</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA80C73C-47C7-3AC7-91D3-0305D07E20CE" referredColumn="E995657F-A208-82E5-7ED4-8A3DF80EDA86"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="476449C7-ADCD-5E64-702C-F4ECAD1DAC5E" name="PARTIDO_PK">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-04 00:48:14 UTC</createdTime>
+<generatorID>0B920743-6C33-32E5-E9ED-593D298BD646</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3CF3A29-37BF-3303-143C-90C06A1FA086"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F2FAF44-6E3D-8D0E-2F83-03CEA1FF76E2" name="PARTIDO_EQUIPO_FK">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-04 00:48:14 UTC</createdTime>
+<generatorID>CEFB479D-4EB8-C4AF-A8CD-095633AB046E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52DB122F-AEFD-C77D-4E6F-A6B421797B2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1E1A24E-B217-9643-2BE0-C9D6EB93C184" name="PARTIDO_EQUIPO_FKv2">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-04 00:48:14 UTC</createdTime>
+<generatorID>4EC5D8D8-39D1-45E4-C3FC-64ABA3B83FB1</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B167E33-5E5D-899C-4845-52AD76A84F45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0321FEF3-9025-05CF-CD09-3C047CC8A01E" name="PARTIDO_JORNADA_FK">
+<createdBy>Jhonny</createdBy>
+<createdTime>2020-10-04 00:48:14 UTC</createdTime>
+<generatorID>39E0AA17-E36A-C03C-F84A-8CD4596F12B3</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A7D1A41-362A-AF9A-71F8-4E8F7C02D511"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

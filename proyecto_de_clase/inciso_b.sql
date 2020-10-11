@@ -1,4 +1,4 @@
-select
+select 
     --s3.year_ini
     *
 from (

@@ -1,0 +1,49 @@
+select log_mode from v$database
+-- NOARCHIVELOG -- NO ARCHIVA LOG
+-- ARCHIVELOG   -- ARCHIVA LOG
+
+--Error ORA-01089: immediate shutdown in progress en Oracle
+--shutdown abort; startup
+
+1. validar estado archivelog de la base de datos
+sqlplus / as sysdba
+archive log list;
+
+2. bajar la base de datos en modo:
+shutdown immediate;
+
+3. montar la base de datos:
+startup mount;
+
+4. cambiar la configuacion a archivelog
+alter database archivelog;
+
+5. abrir la base de datos
+alter database open;
+
+6. validar de nuevo el estado: archivelog
+archive log list;
+
+7. validar el parametro show parameter log_archive_start (archivado en modo automatico)
+show parameter log_archive_start;
+
+8. subir la base de datos
+alter database open;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

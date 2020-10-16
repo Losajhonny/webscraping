@@ -172,4 +172,5 @@ exception
 end;
 
 set serveroutput on
-exec inciso_a(1980, 10, '06/09/1980');
+exec inciso_a(1980, null, null);
+--102, '06/09/1980');

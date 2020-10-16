@@ -1,3 +1,13 @@
+SELECT * FROM user_tablespaces;
+
+SELECT USERNAME, DEFAULT_TABLESPACE, TEMPORARY_TABLESPACE
+    FROM DBA_USERS
+    WHERE DEFAULT_TABLESPACE='PRACTICA2';
+    
+    
+select log_mode from v$database;
+
+
 alter session set "_ORACLE_SCRIPT"=true;
 -- revisar archive log o no
 select log_mode from v$database;

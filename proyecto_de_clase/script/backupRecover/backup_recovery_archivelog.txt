@@ -1,4 +1,5 @@
-select log_mode from v$database
+SELECT USERNAME, DEFAULT_TABLESPACE, TEMPORARY_TABLESPACE FROM DBA_USERS;
+select log_mode from v$database;
 -- NOARCHIVELOG -- NO ARCHIVA LOG
 -- ARCHIVELOG   -- ARCHIVA LOG
 

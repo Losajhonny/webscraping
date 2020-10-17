@@ -1,10 +1,13 @@
 @echo off
 
-echo #### INICIO
+::montar
+SQLPLUS / AS SYSDBA @databaseMount.sql
 
+::recuperar
 RMAN TARGET / @recover.sql
 
-echo #### FIN
+::iniciar
+SQLPLUS / AS SYSDBA @onDatabase.sql
 
 pause
 exit

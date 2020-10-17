@@ -1,0 +1,8 @@
+1. si no esta activado archivolog ejecutar:
+    - activeArchivelog.bat
+
+2. si queres borrar todos los backups:
+    - deleteBackup.bat
+
+3. crar backup con tag 'FULL BACKUP'
+    - createBackup.bat

@@ -1,3 +1,8 @@
+/*
+    f) Realizar un stored procedure que reciba el equipo (id o nombre) y que devuelva las
+    posiciones que ha ocupado en cada una de las temporadas, goles y puntos.
+*/
+
 create or replace procedure inciso_f
 (
     -- parameros in / out
@@ -35,7 +40,7 @@ begin
                     s1.gf,
                     s1.gc,
                     s1.dif,
-                    row_number() over (partition by s1.id order by s1.id, s1.pts desc) pos
+                    row_number() over (partition by s1.id order by s1.id, s1.pts desc, s1.dif desc, s1.gf desc, s1.tr asc, s1.ta asc) pos
                 from
                 (
                     select
@@ -51,7 +56,9 @@ begin
                                 when r.no_gf < r.no_gc then 0 end) pts,
                         sum(r.no_gf) gf,
                         sum(r.no_gc) gc,
-                        sum(r.no_gf) - sum(r.no_gc) dif
+                        sum(r.no_gf) - sum(r.no_gc) dif,
+                        sum(r.no_tamarilla) ta,
+                        sum(r.no_troja) tr
                     from
                         temporada t, jornada j, partido p, resultado r, equipo e
                     where

@@ -1,8 +1,13 @@
+/*
+    c) Consulta que muestre los equipos que ha ganado la liga más veces en los últimos 20
+    años (TOP 5)
+*/
+
 select * from
 (
     select
         s2.equipo,
-        count(*) no
+        count(*) no_veces_ganadores
     from
     (
         select
@@ -13,7 +18,7 @@ select * from
             s1.gf,
             s1.gc,
             s1.dif,
-            row_number() over (partition by s1.id order by s1.id, s1.pts desc) pos
+            row_number() over (partition by s1.id order by s1.id, s1.pts desc, s1.dif desc, s1.gf desc, s1.tr asc, s1.ta asc) pos
         from
         (
             select
@@ -29,7 +34,9 @@ select * from
                         when r.no_gf < r.no_gc then 0 end) pts,
                 sum(r.no_gf) gf,
                 sum(r.no_gc) gc,
-                sum(r.no_gf) - sum(r.no_gc) dif
+                sum(r.no_gf) - sum(r.no_gc) dif,
+                sum(r.no_tamarilla) ta,
+                sum(r.no_troja) tr
             from
                 temporada t, jornada j, partido p, resultado r, equipo e
             where
@@ -46,5 +53,5 @@ select * from
     group by s2.equipo
 ) s3
 where rownum <= 5
-order by no desc
+order by no_veces_ganadores desc
 ;

@@ -29,6 +29,7 @@ sum(r.no_troja) tr
 from
     resultado r, partido p, equipo eq, jornada j, temporada t
 where
-    r.partido_id = p.id and r.equipo_id = eq.id and p.jornada_id = j.id and j.temporada_id = t.id and t.year_ini = 2001 and t.year_fin = 2002
+    r.partido_id = p.id and r.equipo_id = eq.id and p.jornada_id = j.id and j.temporada_id = t.id
+    and t.year_ini = 1980
 group by eq.nombre order by pts desc
 ;

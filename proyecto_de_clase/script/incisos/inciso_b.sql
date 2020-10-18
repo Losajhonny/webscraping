@@ -1,3 +1,9 @@
+/*
+    b) Vista que muestre los primeros 4 lugares de los últimos 40 años (TOP 10) columnas,
+    puesto 1, puntos 1, puesto 2, puntos 2, puesto 3, puntos 3, puesto 4, puntos 4. La
+    vista tendrá entonces un total de 40 filas. 
+*/
+
 create or replace view inciso_b as
 select
 temp.year_ini temporada,
@@ -14,7 +20,7 @@ temp.year_ini temporada,
             s1.gf,
             s1.gc,
             s1.dif,
-            row_number() over (partition by s1.id order by s1.id, s1.pts desc) pos
+            row_number() over (partition by s1.id order by s1.id, s1.pts desc, s1.dif desc, s1.gf desc, s1.tr asc, s1.ta asc) pos
         from
         (
             select
@@ -30,7 +36,9 @@ temp.year_ini temporada,
                         when r.no_gf < r.no_gc then 0 end) pts,
                 sum(r.no_gf) gf,
                 sum(r.no_gc) gc,
-                sum(r.no_gf) - sum(r.no_gc) dif
+                sum(r.no_gf) - sum(r.no_gc) dif,
+                sum(r.no_tamarilla) ta,
+                sum(r.no_troja) tr
             from
                 temporada t, jornada j, partido p, resultado r, equipo e
             where
@@ -57,7 +65,7 @@ temp.year_ini temporada,
             s1.gf,
             s1.gc,
             s1.dif,
-            row_number() over (partition by s1.id order by s1.id, s1.pts desc) pos
+            row_number() over (partition by s1.id order by s1.id, s1.pts desc, s1.dif desc, s1.gf desc, s1.tr asc, s1.ta asc) pos
         from
         (
             select
@@ -73,7 +81,9 @@ temp.year_ini temporada,
                         when r.no_gf < r.no_gc then 0 end) pts,
                 sum(r.no_gf) gf,
                 sum(r.no_gc) gc,
-                sum(r.no_gf) - sum(r.no_gc) dif
+                sum(r.no_gf) - sum(r.no_gc) dif,
+                sum(r.no_tamarilla) ta,
+                sum(r.no_troja) tr
             from
                 temporada t, jornada j, partido p, resultado r, equipo e
             where
@@ -100,7 +110,7 @@ temp.year_ini temporada,
             s1.gf,
             s1.gc,
             s1.dif,
-            row_number() over (partition by s1.id order by s1.id, s1.pts desc) pos
+            row_number() over (partition by s1.id order by s1.id, s1.pts desc, s1.dif desc, s1.gf desc, s1.tr asc, s1.ta asc) pos
         from
         (
             select
@@ -116,7 +126,9 @@ temp.year_ini temporada,
                         when r.no_gf < r.no_gc then 0 end) pts,
                 sum(r.no_gf) gf,
                 sum(r.no_gc) gc,
-                sum(r.no_gf) - sum(r.no_gc) dif
+                sum(r.no_gf) - sum(r.no_gc) dif,
+                sum(r.no_tamarilla) ta,
+                sum(r.no_troja) tr
             from
                 temporada t, jornada j, partido p, resultado r, equipo e
             where
@@ -143,7 +155,7 @@ temp.year_ini temporada,
             s1.gf,
             s1.gc,
             s1.dif,
-            row_number() over (partition by s1.id order by s1.id, s1.pts desc) pos
+            row_number() over (partition by s1.id order by s1.id, s1.pts desc, s1.dif desc, s1.gf desc, s1.tr asc, s1.ta asc) pos
         from
         (
             select
@@ -159,7 +171,9 @@ temp.year_ini temporada,
                         when r.no_gf < r.no_gc then 0 end) pts,
                 sum(r.no_gf) gf,
                 sum(r.no_gc) gc,
-                sum(r.no_gf) - sum(r.no_gc) dif
+                sum(r.no_gf) - sum(r.no_gc) dif,
+                sum(r.no_tamarilla) ta,
+                sum(r.no_troja) tr
             from
                 temporada t, jornada j, partido p, resultado r, equipo e
             where
@@ -186,7 +200,7 @@ temp.year_ini temporada,
             s1.gf,
             s1.gc,
             s1.dif,
-            row_number() over (partition by s1.id order by s1.id, s1.pts desc) pos
+            row_number() over (partition by s1.id order by s1.id, s1.pts desc, s1.dif desc, s1.gf desc, s1.tr asc, s1.ta asc) pos
         from
         (
             select
@@ -202,7 +216,9 @@ temp.year_ini temporada,
                         when r.no_gf < r.no_gc then 0 end) pts,
                 sum(r.no_gf) gf,
                 sum(r.no_gc) gc,
-                sum(r.no_gf) - sum(r.no_gc) dif
+                sum(r.no_gf) - sum(r.no_gc) dif,
+                sum(r.no_tamarilla) ta,
+                sum(r.no_troja) tr
             from
                 temporada t, jornada j, partido p, resultado r, equipo e
             where
@@ -229,7 +245,7 @@ temp.year_ini temporada,
             s1.gf,
             s1.gc,
             s1.dif,
-            row_number() over (partition by s1.id order by s1.id, s1.pts desc) pos
+            row_number() over (partition by s1.id order by s1.id, s1.pts desc, s1.dif desc, s1.gf desc, s1.tr asc, s1.ta asc) pos
         from
         (
             select
@@ -245,7 +261,9 @@ temp.year_ini temporada,
                         when r.no_gf < r.no_gc then 0 end) pts,
                 sum(r.no_gf) gf,
                 sum(r.no_gc) gc,
-                sum(r.no_gf) - sum(r.no_gc) dif
+                sum(r.no_gf) - sum(r.no_gc) dif,
+                sum(r.no_tamarilla) ta,
+                sum(r.no_troja) tr
             from
                 temporada t, jornada j, partido p, resultado r, equipo e
             where
@@ -272,7 +290,7 @@ temp.year_ini temporada,
             s1.gf,
             s1.gc,
             s1.dif,
-            row_number() over (partition by s1.id order by s1.id, s1.pts desc) pos
+            row_number() over (partition by s1.id order by s1.id, s1.pts desc, s1.dif desc, s1.gf desc, s1.tr asc, s1.ta asc) pos
         from
         (
             select
@@ -288,7 +306,9 @@ temp.year_ini temporada,
                         when r.no_gf < r.no_gc then 0 end) pts,
                 sum(r.no_gf) gf,
                 sum(r.no_gc) gc,
-                sum(r.no_gf) - sum(r.no_gc) dif
+                sum(r.no_gf) - sum(r.no_gc) dif,
+                sum(r.no_tamarilla) ta,
+                sum(r.no_troja) tr
             from
                 temporada t, jornada j, partido p, resultado r, equipo e
             where
@@ -315,7 +335,7 @@ temp.year_ini temporada,
             s1.gf,
             s1.gc,
             s1.dif,
-            row_number() over (partition by s1.id order by s1.id, s1.pts desc) pos
+            row_number() over (partition by s1.id order by s1.id, s1.pts desc, s1.dif desc, s1.gf desc, s1.tr asc, s1.ta asc) pos
         from
         (
             select
@@ -331,7 +351,9 @@ temp.year_ini temporada,
                         when r.no_gf < r.no_gc then 0 end) pts,
                 sum(r.no_gf) gf,
                 sum(r.no_gc) gc,
-                sum(r.no_gf) - sum(r.no_gc) dif
+                sum(r.no_gf) - sum(r.no_gc) dif,
+                sum(r.no_tamarilla) ta,
+                sum(r.no_troja) tr
             from
                 temporada t, jornada j, partido p, resultado r, equipo e
             where

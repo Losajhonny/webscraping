@@ -1,3 +1,8 @@
+/*
+    e) Realizar una vista que devuelva las victimas favoritas de un equipo, en otras
+    palabras, a quien han derrotado más veces. 
+*/
+
 create or replace view inciso_e as
 select
     s1.local equipo,

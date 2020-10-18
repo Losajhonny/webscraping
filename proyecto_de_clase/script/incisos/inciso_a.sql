@@ -1,3 +1,12 @@
+/*
+    a) Realizar un stored procedure que devuelva la tabla de posiciones en cualquier
+    momento. Como parámetro debe recibir la temporada (id o año) y tener dos
+    parámetros excluyentes, el número de jornada y la fecha. Si recibe la fecha calcula
+    la tabla a la fecha indicada aun así no haya terminado la jornada, y si recibe la
+    jornada debe traer las posiciones hasta esa jornada. Si ambos están vacíos toma
+    como si fuera el final de temporada. 
+*/
+
 create or replace procedure inciso_a
 (
     -- parameros in / out
@@ -62,7 +71,7 @@ begin
                     and t.year_ini = param_year
                     and p.fecha <= to_date(param_date, 'DD-MM-YYYY')
                 group by e.nombre
-                order by pts desc, dif asc
+                order by pts desc, dif desc, gf desc, tr asc, ta asc
             )
         loop
             dbms_output.put_line(  '  |   ' || rpad(tabla.equipo, 50)
@@ -107,7 +116,7 @@ begin
                     and t.year_ini = param_year
                     and j.numero <= param_jorn
                 group by e.nombre
-                order by pts desc, dif asc
+                order by pts desc, dif desc, gf desc, tr asc, ta asc
             )
         loop
             dbms_output.put_line(  '  |   ' || rpad(tabla.equipo, 50)
@@ -151,7 +160,7 @@ begin
                     and r.equipo_id = e.id
                     and t.year_ini = param_year
                 group by e.nombre
-                order by pts desc, dif asc
+                order by pts desc, dif desc, gf desc, tr asc, ta asc
             )
         loop
             dbms_output.put_line(  '  |   ' || rpad(tabla.equipo, 50)

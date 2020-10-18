@@ -1,3 +1,5 @@
+--Responder ¿Cuál ha sido la victoria más abultada de los últimos 40 años? Partido,
+--equipos y marcador
 SELECT 
   P.ID NO_PARTIDO,
   E1.NOMBRE EQ_LOCAL,

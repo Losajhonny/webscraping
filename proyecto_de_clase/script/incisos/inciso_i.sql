@@ -167,3 +167,6 @@ create or replace PROCEDURE inciso_i
         END;
     END IF;
   END;
+
+
+exec inciso_i(2019);

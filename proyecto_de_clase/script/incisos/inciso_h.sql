@@ -169,7 +169,7 @@ create or replace PROCEDURE inciso_h
   END;
 
 
-
+EXEC INCISO_H(2019);
 
 
 
@@ -205,6 +205,8 @@ AND T.YEAR_INI = 2019
 --https://docs.oracle.com/cd/B14117_01/appdev.101/b10807/13_elems020.htm
 -- como desempatar 
 -- https://mundod.lavoz.com.ar/futbol/como-se-desempata-una-posicion-si-dos-equipos-igualan-en-todo
+-- COMO USAR UN CURSOR COMO VARIABLE E IMPRIMIRLO
+--https://es.stackoverflow.com/questions/221091/crear-un-procedimiento-almacenado-sin-parametros-en-oracle
 
 -- CURSOR  PARA OBTENER LAS FECHAS DE JORNADAS DADA UNA TEMPORADA
  set serveroutput on size 30000;

@@ -1,0 +1,50 @@
+  --k) Consulta que muestre, al quipo con más victorias, más derrotas y más empates
+  
+  (
+    SELECT
+      'EQUIPO QUE MAS GANA' DESCRIPCION,
+      E.NOMBRE EQUIPO,
+      count(case when r.no_gf > r.no_gc then 1 end) PARTIDOS --PG
+    FROM 
+      EQUIPO E, RESULTADO R, PARTIDO P, JORNADA J, TEMPORADA T
+    WHERE 
+      E.ID = R.EQUIPO_ID
+    AND P.ID = R.PARTIDO_ID
+    AND P.JORNADA_ID = J.ID
+    AND J.TEMPORADA_ID = T.ID
+    GROUP BY E.NOMBRE
+    ORDER BY PARTIDOS DESC
+    FETCH NEXT 1 ROWS ONLY
+  )
+  UNION
+  (
+    SELECT
+      'EQUIPO QUE MAS PIERDE' DESCRIPCION,E.NOMBRE EQUIPO,
+      count(case when r.no_gf < r.no_gc then 1 end) PARTIDOS --PP
+    FROM 
+      EQUIPO E, RESULTADO R, PARTIDO P, JORNADA J, TEMPORADA T
+    WHERE 
+      E.ID = R.EQUIPO_ID
+    AND P.ID = R.PARTIDO_ID
+    AND P.JORNADA_ID = J.ID
+    AND J.TEMPORADA_ID = T.ID
+    GROUP BY E.NOMBRE
+    ORDER BY PARTIDOS DESC
+    FETCH NEXT 1 ROWS ONLY
+  )
+  UNION
+  (
+    SELECT
+      'EQUIPO QUE MAS EMPATA' DESCRIPCION,E.NOMBRE EQUIPO,
+      count(case when r.no_gf = r.no_gc then 1 end) PARTIDOS
+    FROM 
+      EQUIPO E, RESULTADO R, PARTIDO P, JORNADA J, TEMPORADA T
+    WHERE 
+      E.ID = R.EQUIPO_ID
+    AND P.ID = R.PARTIDO_ID
+    AND P.JORNADA_ID = J.ID
+    AND J.TEMPORADA_ID = T.ID
+    GROUP BY E.NOMBRE
+    ORDER BY PARTIDOS DESC
+    FETCH NEXT 1 ROWS ONLY
+  )

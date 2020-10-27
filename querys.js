@@ -6,11 +6,11 @@ db.partido.find({})
 use "bbva"
 
 db.partido.aggregate(
-    { $match: {
-        $and: [
+    { $match: { temporada: 1980
+        /*$and: [
             { temporada: { $eq: 1980 } },
             { numeroJornada: { $lte: 1 } }
-        ]}
+        ]*/}
     },
     { $group: { 
             _id: "$equipo1",

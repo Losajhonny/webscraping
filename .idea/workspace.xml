@@ -22,12 +22,28 @@
     <list default="true" id="ded82644-ce7d-4a9b-a193-147396f2a607" name="Default Changelist" comment="add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto_de_clase/consultas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto_de_clase/consultas.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cx_Oracle-8.0.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cx_Oracle-8.0.1.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cx_Oracle-8.0.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cx_Oracle-8.0.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cx_Oracle-8.0.1.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cx_Oracle-8.0.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cx_Oracle-8.0.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cx_Oracle.cp38-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/cx_Oracle-doc/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/cx_Oracle-doc/README.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +57,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webscrapingPeliculas" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunManager">
@@ -109,22 +126,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601618958973" />
-    <state width="1515" height="307" key="GridCell.Tab.0.bottom" timestamp="1601840563425">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603583475033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="307" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601840563425" />
-    <state width="1515" height="307" key="GridCell.Tab.0.center" timestamp="1601840563425">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603583475033" />
+    <state width="1515" height="261" key="GridCell.Tab.0.bottom" timestamp="1603597599481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="307" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601840563425" />
-    <state width="1515" height="307" key="GridCell.Tab.0.left" timestamp="1601840563425">
+    <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603597599481" />
+    <state width="1515" height="261" key="GridCell.Tab.0.center" timestamp="1603597599481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="307" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601840563425" />
-    <state width="1515" height="307" key="GridCell.Tab.0.right" timestamp="1601840563425">
+    <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603597599481" />
+    <state width="1515" height="261" key="GridCell.Tab.0.left" timestamp="1603597599481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="307" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601840563425" />
+    <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603597599481" />
+    <state width="1515" height="261" key="GridCell.Tab.0.right" timestamp="1603597599481">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603597599481" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1603597599482">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603597599482" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1603597599481">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603597599481" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1603597599481">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603597599481" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1603597599481">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603597599481" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1601677148726">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

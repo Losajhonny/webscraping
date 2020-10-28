@@ -20,12 +20,15 @@ class Partido:
         return self.yearIni + ', ' + self.local + ' ' + self.local_gl + ' vs ' + self.visit_gl + ' ' + self.visit
     
     def toStringLocal(self):
+        fechaFormat = self.fecha.split("/")
+        fechaString = fechaFormat[2] + "-" + fechaFormat[1] + "-" + fechaFormat[0]
+        
         cad = '"temporada": ' + self.yearIni + ', '
         cad += '"yearIni": ' + self.yearIni + ', '
         cad += '"yearFin": ' + self.yearFin + ', '
         cad += '"nombreJornada": "' + self.jornadaNombre + '", '
         cad += '"numeroJornada": ' + self.jornadaNumero + ', '
-        cad += '"fecha": "' + self.fecha + '", '
+        cad += '"fecha": (new Date("' + fechaString + '")).toISOString(), '
         
         cad += '"juegoDe": "local", '
         
@@ -39,12 +42,15 @@ class Partido:
         return cad
     
     def toStringVisit(self):
+        fechaFormat = self.fecha.split("/")
+        fechaString = fechaFormat[2] + "-" + fechaFormat[1] + "-" + fechaFormat[0]
+        
         cad = '"temporada": ' + self.yearIni + ', '
         cad += '"yearIni": ' + self.yearIni + ', '
         cad += '"yearFin": ' + self.yearFin + ', '
         cad += '"nombreJornada": "' + self.jornadaNombre + '", '
         cad += '"numeroJornada": ' + self.jornadaNumero + ', '
-        cad += '"fecha": "' + self.fecha + '", '
+        cad += '"fecha": (new Date("' + fechaString + '")).toISOString(), '
 
         cad += '"juegoDe": "visita", '
 

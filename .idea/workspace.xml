@@ -21,17 +21,27 @@
   <component name="ChangeListManager">
     <list default="true" id="ded82644-ce7d-4a9b-a193-147396f2a607" name="Default Changelist" comment="add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cx_Oracle-8.0.1.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cx_Oracle-8.0.1.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cx_Oracle-8.0.1.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cx_Oracle-8.0.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cx_Oracle-8.0.1.dist-info/REQUESTED" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cx_Oracle-8.0.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cx_Oracle-8.0.1.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cx_Oracle.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/cx_Oracle-doc/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/cx_Oracle-doc/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Partido.py" beforeDir="false" afterPath="$PROJECT_DIR$/Partido.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2001_2000.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2001_2000.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2002_2001.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2002_2001.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2003_2002.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2003_2002.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2004_2003.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2004_2003.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2005_2004.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2005_2004.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2006_2005.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2006_2005.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2007_2006.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2007_2006.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2008_2007.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2008_2007.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2009_2008.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2009_2008.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2010_2009.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2010_2009.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2011_2010.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2011_2010.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2012_2011.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2012_2011.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2013_2012.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2013_2012.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2014_2013.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2014_2013.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2015_2014.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2015_2014.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2016_2015.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2016_2015.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2017_2016.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2017_2016.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2018_2017.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2018_2017.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2019_2018.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2019_2018.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temporada_2020_2019.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temporada_2020_2019.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,22 +140,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603583475033" />
-    <state width="1515" height="261" key="GridCell.Tab.0.bottom" timestamp="1603597599481">
+    <state width="1515" height="307" key="GridCell.Tab.0.bottom" timestamp="1603900938471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603597599481" />
-    <state width="1515" height="261" key="GridCell.Tab.0.center" timestamp="1603597599481">
+    <state width="1515" height="307" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603900938471" />
+    <state width="1515" height="307" key="GridCell.Tab.0.center" timestamp="1603900938471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603597599481" />
-    <state width="1515" height="261" key="GridCell.Tab.0.left" timestamp="1603597599481">
+    <state width="1515" height="307" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603900938471" />
+    <state width="1515" height="307" key="GridCell.Tab.0.left" timestamp="1603900938471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603597599481" />
-    <state width="1515" height="261" key="GridCell.Tab.0.right" timestamp="1603597599481">
+    <state width="1515" height="307" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603900938471" />
+    <state width="1515" height="307" key="GridCell.Tab.0.right" timestamp="1603900938471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603597599481" />
+    <state width="1515" height="307" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603900938471" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1603597599482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
